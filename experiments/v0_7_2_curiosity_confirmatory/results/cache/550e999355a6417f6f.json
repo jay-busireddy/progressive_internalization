@@ -1,0 +1,230 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-24 stage 1, DEX-86 changes into ZUM-75."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-24 stage 2, ZUM-75 changes into TEK-56."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-24 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-24 stage 4, ZIR-76 changes into terminal marker XAN-16."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-84 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-84 stage 4, KEL-52 changes into terminal marker ZIR-92."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-84 stage 2, BEX-79 changes into XAN-60."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-84 stage 1, MUR-16 changes into BEX-79."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-28 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-28 stage 1, VOR-22 changes into VOR-77."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-28 stage 4, HAP-43 changes into terminal marker VOR-83."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-28 stage 2, VOR-77 changes into PEL-38."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "d05",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-12: stage 3 maps NIX-43 into DEX-19."
+    },
+    {
+      "id": "d03",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-96: stage 3 maps VOR-42 into DEX-60."
+    },
+    {
+      "id": "d08",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-21: stage 3 maps LOQ-28 into TEK-16."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-24",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-24",
+          "stage": 1,
+          "from_symbol": "DEX-86",
+          "to_symbol": "ZUM-75",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-24",
+          "stage": 2,
+          "from_symbol": "ZUM-75",
+          "to_symbol": "TEK-56",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-24",
+          "stage": 4,
+          "from_symbol": "ZIR-76",
+          "to_symbol": "XAN-16",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-28",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-28",
+          "stage": 1,
+          "from_symbol": "VOR-22",
+          "to_symbol": "VOR-77",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-28",
+          "stage": 2,
+          "from_symbol": "VOR-77",
+          "to_symbol": "PEL-38",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-28",
+          "stage": 4,
+          "from_symbol": "HAP-43",
+          "to_symbol": "VOR-83",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-84",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-84",
+          "stage": 1,
+          "from_symbol": "MUR-16",
+          "to_symbol": "BEX-79",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-84",
+          "stage": 2,
+          "from_symbol": "BEX-79",
+          "to_symbol": "XAN-60",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-84",
+          "stage": 4,
+          "from_symbol": "KEL-52",
+          "to_symbol": "ZIR-92",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-24",
+      "missing_stage": 3,
+      "from_symbol": "TEK-56",
+      "to_symbol": "ZIR-76",
+      "evidence_ids": [
+        "o2a",
+        "o2c",
+        "o2d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-24 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-28",
+      "missing_stage": 3,
+      "from_symbol": "PEL-38",
+      "to_symbol": "HAP-43",
+      "evidence_ids": [
+        "o1a",
+        "o1c",
+        "o1d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-28 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-84",
+      "missing_stage": 3,
+      "from_symbol": "XAN-60",
+      "to_symbol": "KEL-52",
+      "evidence_ids": [
+        "o3a",
+        "o3c",
+        "o3d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-84 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "derived_relations": [],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [],\n  \"derived_relations\": [],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-24\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TEK-56\",\n      \"to_symbol\": \"ZIR-76\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2c\",\n        \"o2d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-24 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-28\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"PEL-38\",\n      \"to_symbol\": \"HAP-43\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1c\",\n        \"o1d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-28 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-84\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"XAN-60\",\n      \"to_symbol\": \"KEL-52\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3c\",\n        \"o3d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-84 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

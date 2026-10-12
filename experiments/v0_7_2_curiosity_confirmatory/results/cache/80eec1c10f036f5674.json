@@ -1,0 +1,267 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-23 stage 1, LOQ-87 changes into FAR-96."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-23 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-23 stage 4, ZIR-25 changes into terminal marker FEN-22."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-23 stage 2, FAR-96 changes into JOT-53."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 1, WIR-23 changes into HAP-37."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-22 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-22 stage 2, HAP-37 changes into WAM-33."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 4, KEL-28 changes into terminal marker PEL-69."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-26 stage 4, XAN-45 changes into terminal marker WAM-47."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-26 stage 1, VOR-82 changes into BEX-79."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-26 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-26 stage 2, BEX-79 changes into GOL-88."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-22: WAM-33 changes into KEL-28."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-23: JOT-53 changes into ZIR-25."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-22",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-22",
+          "stage": 1,
+          "from_symbol": "WIR-23",
+          "to_symbol": "HAP-37",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-22",
+          "stage": 2,
+          "from_symbol": "HAP-37",
+          "to_symbol": "WAM-33",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-22",
+          "stage": 3,
+          "from_symbol": "WAM-33",
+          "to_symbol": "KEL-28",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-22",
+          "stage": 4,
+          "from_symbol": "KEL-28",
+          "to_symbol": "PEL-69",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-23",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-23",
+          "stage": 1,
+          "from_symbol": "LOQ-87",
+          "to_symbol": "FAR-96",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-23",
+          "stage": 2,
+          "from_symbol": "FAR-96",
+          "to_symbol": "JOT-53",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-23",
+          "stage": 3,
+          "from_symbol": "JOT-53",
+          "to_symbol": "ZIR-25",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-23",
+          "stage": 4,
+          "from_symbol": "ZIR-25",
+          "to_symbol": "FEN-22",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-26",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-26",
+          "stage": 1,
+          "from_symbol": "VOR-82",
+          "to_symbol": "BEX-79",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-26",
+          "stage": 2,
+          "from_symbol": "BEX-79",
+          "to_symbol": "GOL-88",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-26",
+          "stage": 4,
+          "from_symbol": "XAN-45",
+          "to_symbol": "WAM-47",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-22",
+      "missing_stage": 3,
+      "from_symbol": "WAM-33",
+      "to_symbol": "KEL-28",
+      "document_id": "c01"
+    },
+    {
+      "process": "PRC-23",
+      "missing_stage": 3,
+      "from_symbol": "JOT-53",
+      "to_symbol": "ZIR-25",
+      "document_id": "c02"
+    }
+  ],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-26",
+      "missing_stage": 3,
+      "from_symbol": "GOL-88",
+      "to_symbol": "XAN-45",
+      "evidence_ids": [
+        "o3a",
+        "o3c",
+        "o3d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-26 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-22",
+      "from_symbol": "WIR-23",
+      "to_symbol": "PEL-69",
+      "claim": "In PRC-22, starting from WIR-23 ultimately reaches PEL-69.",
+      "text": "In PRC-22, starting from WIR-23 ultimately reaches PEL-69.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-23",
+      "from_symbol": "LOQ-87",
+      "to_symbol": "FEN-22",
+      "claim": "In PRC-23, starting from LOQ-87 ultimately reaches FEN-22.",
+      "text": "In PRC-23, starting from LOQ-87 ultimately reaches FEN-22.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-22\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"WAM-33\",\n      \"to_symbol\": \"KEL-28\",\n      \"document_id\": \"c01\"\n    },\n    {\n      \"process\": \"PRC-23\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"JOT-53\",\n      \"to_symbol\": \"ZIR-25\",\n      \"document_id\": \"c02\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-22\",\n      \"from_symbol\": \"WIR-23\",\n      \"to_symbol\": \"PEL-69\",\n      \"claim\": \"In PRC-22, starting from WIR-23 ultimately reaches PEL-69.\",\n      \"text\": \"In PRC-22, starting from WIR-23 ultimately reaches PEL-69.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-23\",\n      \"from_symbol\": \"LOQ-87\",\n      \"to_symbol\": \"FEN-22\",\n      \"claim\": \"In PRC-23, starting from LOQ-87 ultimately reaches FEN-22.\",\n      \"text\": \"In PRC-23, starting from LOQ-87 ultimately reaches FEN-22.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-26\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"GOL-88\",\n      \"to_symbol\": \"XAN-45\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3c\",\n        \"o3d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-26 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

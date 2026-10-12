@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-32 stage 2, FAR-27 changes into CYN-61."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-32 stage 4, LUM-53 changes into terminal marker RAV-85."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-32 stage 1, MUR-22 changes into FAR-27."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-32 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-59 stage 1, RAV-45 changes into CYN-60."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-59 stage 4, BIR-19 changes into terminal marker ZIR-92."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-59 stage 2, CYN-60 changes into NIX-11."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-59 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-46 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-46 stage 4, ZIR-52 changes into terminal marker LUM-77."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-46 stage 2, SIV-14 changes into HAP-19."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-46 stage 1, WAM-50 changes into SIV-14."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-32: CYN-61 changes into LUM-53."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-46: HAP-19 changes into ZIR-52."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-59: NIX-11 changes into BIR-19."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-32",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-32",
+          "stage": 1,
+          "from_symbol": "MUR-22",
+          "to_symbol": "FAR-27",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-32",
+          "stage": 2,
+          "from_symbol": "FAR-27",
+          "to_symbol": "CYN-61",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-32",
+          "stage": 3,
+          "from_symbol": "CYN-61",
+          "to_symbol": "LUM-53",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-32",
+          "stage": 4,
+          "from_symbol": "LUM-53",
+          "to_symbol": "RAV-85",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-46",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-46",
+          "stage": 1,
+          "from_symbol": "WAM-50",
+          "to_symbol": "SIV-14",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-46",
+          "stage": 2,
+          "from_symbol": "SIV-14",
+          "to_symbol": "HAP-19",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-46",
+          "stage": 3,
+          "from_symbol": "HAP-19",
+          "to_symbol": "ZIR-52",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-46",
+          "stage": 4,
+          "from_symbol": "ZIR-52",
+          "to_symbol": "LUM-77",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-59",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-59",
+          "stage": 1,
+          "from_symbol": "RAV-45",
+          "to_symbol": "CYN-60",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-59",
+          "stage": 2,
+          "from_symbol": "CYN-60",
+          "to_symbol": "NIX-11",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-59",
+          "stage": 3,
+          "from_symbol": "NIX-11",
+          "to_symbol": "BIR-19",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-59",
+          "stage": 4,
+          "from_symbol": "BIR-19",
+          "to_symbol": "ZIR-92",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-32",
+      "missing_stage": 3,
+      "from_symbol": "CYN-61",
+      "to_symbol": "LUM-53",
+      "document_id": "c01"
+    },
+    {
+      "process": "PRC-46",
+      "missing_stage": 3,
+      "from_symbol": "HAP-19",
+      "to_symbol": "ZIR-52",
+      "document_id": "c03"
+    },
+    {
+      "process": "PRC-59",
+      "missing_stage": 3,
+      "from_symbol": "NIX-11",
+      "to_symbol": "BIR-19",
+      "document_id": "c02"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-32",
+      "from_symbol": "MUR-22",
+      "to_symbol": "RAV-85",
+      "claim": "In PRC-32, starting from MUR-22 ultimately reaches RAV-85.",
+      "text": "In PRC-32, starting from MUR-22 ultimately reaches RAV-85.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-46",
+      "from_symbol": "WAM-50",
+      "to_symbol": "LUM-77",
+      "claim": "In PRC-46, starting from WAM-50 ultimately reaches LUM-77.",
+      "text": "In PRC-46, starting from WAM-50 ultimately reaches LUM-77.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-59",
+      "from_symbol": "RAV-45",
+      "to_symbol": "ZIR-92",
+      "claim": "In PRC-59, starting from RAV-45 ultimately reaches ZIR-92.",
+      "text": "In PRC-59, starting from RAV-45 ultimately reaches ZIR-92.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-32\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"CYN-61\",\n      \"to_symbol\": \"LUM-53\",\n      \"document_id\": \"c01\"\n    },\n    {\n      \"process\": \"PRC-46\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"HAP-19\",\n      \"to_symbol\": \"ZIR-52\",\n      \"document_id\": \"c03\"\n    },\n    {\n      \"process\": \"PRC-59\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"NIX-11\",\n      \"to_symbol\": \"BIR-19\",\n      \"document_id\": \"c02\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-32\",\n      \"from_symbol\": \"MUR-22\",\n      \"to_symbol\": \"RAV-85\",\n      \"claim\": \"In PRC-32, starting from MUR-22 ultimately reaches RAV-85.\",\n      \"text\": \"In PRC-32, starting from MUR-22 ultimately reaches RAV-85.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-46\",\n      \"from_symbol\": \"WAM-50\",\n      \"to_symbol\": \"LUM-77\",\n      \"claim\": \"In PRC-46, starting from WAM-50 ultimately reaches LUM-77.\",\n      \"text\": \"In PRC-46, starting from WAM-50 ultimately reaches LUM-77.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-59\",\n      \"from_symbol\": \"RAV-45\",\n      \"to_symbol\": \"ZIR-92\",\n      \"claim\": \"In PRC-59, starting from RAV-45 ultimately reaches ZIR-92.\",\n      \"text\": \"In PRC-59, starting from RAV-45 ultimately reaches ZIR-92.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

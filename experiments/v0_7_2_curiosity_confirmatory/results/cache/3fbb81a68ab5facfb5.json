@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-62 stage 2, CYN-58 changes into GOL-56."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-62 stage 4, MUR-54 changes into terminal marker ZIR-50."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-62 stage 1, LOQ-66 changes into CYN-58."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-62 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-82 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-82 stage 1, ZUM-84 changes into BEX-18."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-82 stage 4, XAN-37 changes into terminal marker FEN-16."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-82 stage 2, BEX-18 changes into VOR-47."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-43 stage 4, SIV-75 changes into terminal marker NIX-62."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-43 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-43 stage 1, SIV-87 changes into WIR-41."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-43 stage 2, WIR-41 changes into LOQ-19."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-43: LOQ-19 changes into SIV-75."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-62: GOL-56 changes into MUR-54."
+    },
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-82: VOR-47 changes into XAN-37."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-43",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-43",
+          "stage": 1,
+          "from_symbol": "SIV-87",
+          "to_symbol": "WIR-41",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-43",
+          "stage": 2,
+          "from_symbol": "WIR-41",
+          "to_symbol": "LOQ-19",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-43",
+          "stage": 3,
+          "from_symbol": "LOQ-19",
+          "to_symbol": "SIV-75",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-43",
+          "stage": 4,
+          "from_symbol": "SIV-75",
+          "to_symbol": "NIX-62",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-62",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-62",
+          "stage": 1,
+          "from_symbol": "LOQ-66",
+          "to_symbol": "CYN-58",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-62",
+          "stage": 2,
+          "from_symbol": "CYN-58",
+          "to_symbol": "GOL-56",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-62",
+          "stage": 3,
+          "from_symbol": "GOL-56",
+          "to_symbol": "MUR-54",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-62",
+          "stage": 4,
+          "from_symbol": "MUR-54",
+          "to_symbol": "ZIR-50",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-82",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-82",
+          "stage": 1,
+          "from_symbol": "ZUM-84",
+          "to_symbol": "BEX-18",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-82",
+          "stage": 2,
+          "from_symbol": "BEX-18",
+          "to_symbol": "VOR-47",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-82",
+          "stage": 3,
+          "from_symbol": "VOR-47",
+          "to_symbol": "XAN-37",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-82",
+          "stage": 4,
+          "from_symbol": "XAN-37",
+          "to_symbol": "FEN-16",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-43",
+      "missing_stage": 3,
+      "from_symbol": "LOQ-19",
+      "to_symbol": "SIV-75",
+      "document_id": "c03"
+    },
+    {
+      "process": "PRC-62",
+      "missing_stage": 3,
+      "from_symbol": "GOL-56",
+      "to_symbol": "MUR-54",
+      "document_id": "c02"
+    },
+    {
+      "process": "PRC-82",
+      "missing_stage": 3,
+      "from_symbol": "VOR-47",
+      "to_symbol": "XAN-37",
+      "document_id": "c01"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-43",
+      "from_symbol": "SIV-87",
+      "to_symbol": "NIX-62",
+      "claim": "In PRC-43, starting from SIV-87 ultimately reaches NIX-62.",
+      "text": "In PRC-43, starting from SIV-87 ultimately reaches NIX-62.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-62",
+      "from_symbol": "LOQ-66",
+      "to_symbol": "ZIR-50",
+      "claim": "In PRC-62, starting from LOQ-66 ultimately reaches ZIR-50.",
+      "text": "In PRC-62, starting from LOQ-66 ultimately reaches ZIR-50.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-82",
+      "from_symbol": "ZUM-84",
+      "to_symbol": "FEN-16",
+      "claim": "In PRC-82, starting from ZUM-84 ultimately reaches FEN-16.",
+      "text": "In PRC-82, starting from ZUM-84 ultimately reaches FEN-16.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-43\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"LOQ-19\",\n      \"to_symbol\": \"SIV-75\",\n      \"document_id\": \"c03\"\n    },\n    {\n      \"process\": \"PRC-62\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"GOL-56\",\n      \"to_symbol\": \"MUR-54\",\n      \"document_id\": \"c02\"\n    },\n    {\n      \"process\": \"PRC-82\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"VOR-47\",\n      \"to_symbol\": \"XAN-37\",\n      \"document_id\": \"c01\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-43\",\n      \"from_symbol\": \"SIV-87\",\n      \"to_symbol\": \"NIX-62\",\n      \"claim\": \"In PRC-43, starting from SIV-87 ultimately reaches NIX-62.\",\n      \"text\": \"In PRC-43, starting from SIV-87 ultimately reaches NIX-62.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-62\",\n      \"from_symbol\": \"LOQ-66\",\n      \"to_symbol\": \"ZIR-50\",\n      \"claim\": \"In PRC-62, starting from LOQ-66 ultimately reaches ZIR-50.\",\n      \"text\": \"In PRC-62, starting from LOQ-66 ultimately reaches ZIR-50.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-82\",\n      \"from_symbol\": \"ZUM-84\",\n      \"to_symbol\": \"FEN-16\",\n      \"claim\": \"In PRC-82, starting from ZUM-84 ultimately reaches FEN-16.\",\n      \"text\": \"In PRC-82, starting from ZUM-84 ultimately reaches FEN-16.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

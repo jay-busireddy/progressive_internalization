@@ -1,0 +1,252 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-76 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-76 stage 1, TEK-79 changes into NIX-34."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-76 stage 2, NIX-34 changes into MUR-68."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-76 stage 4, SIV-41 changes into terminal marker JOT-56."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-42 stage 1, RAV-21 changes into ZUM-84."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-42 stage 4, WIR-97 changes into terminal marker GOL-91."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-42 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-42 stage 2, ZUM-84 changes into BIR-72."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-70 stage 4, LOQ-88 changes into terminal marker TEK-36."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-70 stage 2, JOT-50 changes into GOL-25."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-70 stage 1, NIX-94 changes into JOT-50."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-70 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-42: BIR-72 changes into WIR-97."
+    },
+    {
+      "id": "d05",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-46: stage 3 maps JOT-98 into MUR-46."
+    },
+    {
+      "id": "d12",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-67: stage 3 maps BEX-18 into RAV-71."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-42",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-42",
+          "stage": 1,
+          "from_symbol": "RAV-21",
+          "to_symbol": "ZUM-84",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-42",
+          "stage": 2,
+          "from_symbol": "ZUM-84",
+          "to_symbol": "BIR-72",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-42",
+          "stage": 3,
+          "from_symbol": "BIR-72",
+          "to_symbol": "WIR-97",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-42",
+          "stage": 4,
+          "from_symbol": "WIR-97",
+          "to_symbol": "GOL-91",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-70",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-70",
+          "stage": 1,
+          "from_symbol": "NIX-94",
+          "to_symbol": "JOT-50",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-70",
+          "stage": 2,
+          "from_symbol": "JOT-50",
+          "to_symbol": "GOL-25",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-70",
+          "stage": 4,
+          "from_symbol": "LOQ-88",
+          "to_symbol": "TEK-36",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-76",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-76",
+          "stage": 1,
+          "from_symbol": "TEK-79",
+          "to_symbol": "NIX-34",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-76",
+          "stage": 2,
+          "from_symbol": "NIX-34",
+          "to_symbol": "MUR-68",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-76",
+          "stage": 4,
+          "from_symbol": "SIV-41",
+          "to_symbol": "JOT-56",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-42",
+      "missing_stage": 3,
+      "from_symbol": "BIR-72",
+      "to_symbol": "WIR-97",
+      "document_id": "c02"
+    }
+  ],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-70",
+      "missing_stage": 3,
+      "from_symbol": "GOL-25",
+      "to_symbol": "LOQ-88",
+      "evidence_ids": [
+        "o3a",
+        "o3c",
+        "o3d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-70 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-76",
+      "missing_stage": 3,
+      "from_symbol": "MUR-68",
+      "to_symbol": "SIV-41",
+      "evidence_ids": [
+        "o1a",
+        "o1c",
+        "o1d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-76 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-42",
+      "from_symbol": "RAV-21",
+      "to_symbol": "GOL-91",
+      "claim": "In PRC-42, starting from RAV-21 ultimately reaches GOL-91.",
+      "text": "In PRC-42, starting from RAV-21 ultimately reaches GOL-91.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-42\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"BIR-72\",\n      \"to_symbol\": \"WIR-97\",\n      \"document_id\": \"c02\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-42\",\n      \"from_symbol\": \"RAV-21\",\n      \"to_symbol\": \"GOL-91\",\n      \"claim\": \"In PRC-42, starting from RAV-21 ultimately reaches GOL-91.\",\n      \"text\": \"In PRC-42, starting from RAV-21 ultimately reaches GOL-91.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-70\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"GOL-25\",\n      \"to_symbol\": \"LOQ-88\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3c\",\n        \"o3d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-70 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-76\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"MUR-68\",\n      \"to_symbol\": \"SIV-41\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1c\",\n        \"o1d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-76 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

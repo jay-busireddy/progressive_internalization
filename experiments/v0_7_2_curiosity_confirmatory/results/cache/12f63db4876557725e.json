@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-61 stage 4, JOT-28 changes into terminal marker HAP-48."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-61 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-61 stage 2, CYN-94 changes into FAR-41."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-61 stage 1, HAP-96 changes into CYN-94."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-94 stage 1, SIV-14 changes into KEL-58."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-94 stage 2, KEL-58 changes into PEL-73."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-94 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-94 stage 4, RAV-47 changes into terminal marker WAM-15."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-48 stage 1, VOR-86 changes into MUR-81."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-48 stage 4, TEK-38 changes into terminal marker VOR-75."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-48 stage 2, MUR-81 changes into ZIR-79."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-48 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-48: ZIR-79 changes into TEK-38."
+    },
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-61: FAR-41 changes into JOT-28."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-94: PEL-73 changes into RAV-47."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-48",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-48",
+          "stage": 1,
+          "from_symbol": "VOR-86",
+          "to_symbol": "MUR-81",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-48",
+          "stage": 2,
+          "from_symbol": "MUR-81",
+          "to_symbol": "ZIR-79",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-48",
+          "stage": 3,
+          "from_symbol": "ZIR-79",
+          "to_symbol": "TEK-38",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-48",
+          "stage": 4,
+          "from_symbol": "TEK-38",
+          "to_symbol": "VOR-75",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-61",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-61",
+          "stage": 1,
+          "from_symbol": "HAP-96",
+          "to_symbol": "CYN-94",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-61",
+          "stage": 2,
+          "from_symbol": "CYN-94",
+          "to_symbol": "FAR-41",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-61",
+          "stage": 3,
+          "from_symbol": "FAR-41",
+          "to_symbol": "JOT-28",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-61",
+          "stage": 4,
+          "from_symbol": "JOT-28",
+          "to_symbol": "HAP-48",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-94",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-94",
+          "stage": 1,
+          "from_symbol": "SIV-14",
+          "to_symbol": "KEL-58",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-94",
+          "stage": 2,
+          "from_symbol": "KEL-58",
+          "to_symbol": "PEL-73",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-94",
+          "stage": 3,
+          "from_symbol": "PEL-73",
+          "to_symbol": "RAV-47",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-94",
+          "stage": 4,
+          "from_symbol": "RAV-47",
+          "to_symbol": "WAM-15",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-48",
+      "missing_stage": 3,
+      "from_symbol": "ZIR-79",
+      "to_symbol": "TEK-38",
+      "document_id": "c03"
+    },
+    {
+      "process": "PRC-61",
+      "missing_stage": 3,
+      "from_symbol": "FAR-41",
+      "to_symbol": "JOT-28",
+      "document_id": "c01"
+    },
+    {
+      "process": "PRC-94",
+      "missing_stage": 3,
+      "from_symbol": "PEL-73",
+      "to_symbol": "RAV-47",
+      "document_id": "c02"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-48",
+      "from_symbol": "VOR-86",
+      "to_symbol": "VOR-75",
+      "claim": "In PRC-48, starting from VOR-86 ultimately reaches VOR-75.",
+      "text": "In PRC-48, starting from VOR-86 ultimately reaches VOR-75.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-61",
+      "from_symbol": "HAP-96",
+      "to_symbol": "HAP-48",
+      "claim": "In PRC-61, starting from HAP-96 ultimately reaches HAP-48.",
+      "text": "In PRC-61, starting from HAP-96 ultimately reaches HAP-48.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-94",
+      "from_symbol": "SIV-14",
+      "to_symbol": "WAM-15",
+      "claim": "In PRC-94, starting from SIV-14 ultimately reaches WAM-15.",
+      "text": "In PRC-94, starting from SIV-14 ultimately reaches WAM-15.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-48\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"ZIR-79\",\n      \"to_symbol\": \"TEK-38\",\n      \"document_id\": \"c03\"\n    },\n    {\n      \"process\": \"PRC-61\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"FAR-41\",\n      \"to_symbol\": \"JOT-28\",\n      \"document_id\": \"c01\"\n    },\n    {\n      \"process\": \"PRC-94\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"PEL-73\",\n      \"to_symbol\": \"RAV-47\",\n      \"document_id\": \"c02\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-48\",\n      \"from_symbol\": \"VOR-86\",\n      \"to_symbol\": \"VOR-75\",\n      \"claim\": \"In PRC-48, starting from VOR-86 ultimately reaches VOR-75.\",\n      \"text\": \"In PRC-48, starting from VOR-86 ultimately reaches VOR-75.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-61\",\n      \"from_symbol\": \"HAP-96\",\n      \"to_symbol\": \"HAP-48\",\n      \"claim\": \"In PRC-61, starting from HAP-96 ultimately reaches HAP-48.\",\n      \"text\": \"In PRC-61, starting from HAP-96 ultimately reaches HAP-48.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-94\",\n      \"from_symbol\": \"SIV-14\",\n      \"to_symbol\": \"WAM-15\",\n      \"claim\": \"In PRC-94, starting from SIV-14 ultimately reaches WAM-15.\",\n      \"text\": \"In PRC-94, starting from SIV-14 ultimately reaches WAM-15.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}
