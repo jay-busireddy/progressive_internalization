@@ -1,0 +1,17 @@
+V0.5 FINAL TEST
+
+1) Install:
+   python -m pip install -r requirements.txt
+
+2) Pilot using qwen2.5:7b:
+   python clean_results.py
+   python run_synthetic.py --backend ollama --model qwen2.5:7b --pilot --temperature 0.1 --top-k 4 --num-ctx 8192
+   python analyze_synthetic.py
+
+3) Send results/synthetic_runs.csv and results/synthetic_summary.md for analysis.
+
+Validity gates:
+- no_memory <= 0.25
+- full_history >= 0.70
+
+Continue only if additive_recombination is not clearly below fact_memory.

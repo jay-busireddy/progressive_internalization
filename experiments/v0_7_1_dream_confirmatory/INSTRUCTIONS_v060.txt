@@ -1,0 +1,9 @@
+Progressive Internalization v0.6 — Hardened Synthetic Benchmark
+
+1) Install: python -m pip install -r requirements.txt
+2) Validate: python -m pytest -q
+3) Pilot with qwen2.5:7b and analyze.
+4) Continue to the 80-run full test only if no_memory <= 0.10 and full_history >= 0.70.
+5) Send results/synthetic_runs.csv and results/synthetic_summary.md for analysis.
+
+Architecture is unchanged from v0.5; only the synthetic benchmark/scoring is hardened.

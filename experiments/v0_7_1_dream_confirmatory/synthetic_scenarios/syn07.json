@@ -1,0 +1,129 @@
+{
+  "id": "syn07",
+  "name": "Untouched Dream Confirmation World 07",
+  "world_seed": 10059,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating PEL-89 converts GOL-79 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active GOL-79 is present, it produces JOT-85."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When JOT-85 encounters PEL-47, the validated terminal code becomes GOL-41."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving JOT-85 and PEL-47, the accepted terminal code is GOL-41; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with PEL-47 is TEK-95."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating JOT-91 converts FAR-99 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active FAR-99 is present, it produces SIV-21."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When SIV-21 encounters HAP-36, the validated terminal code becomes WIR-52."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving SIV-21 and HAP-36, the accepted terminal code is WIR-52; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with HAP-36 is WIR-97."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating WIR-69 converts LUM-84 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active LUM-84 is present, it produces DEX-24."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When DEX-24 encounters KEL-97, the validated terminal code becomes MUR-91."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-24 and KEL-97, the accepted terminal code is MUR-91; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with KEL-97 is BEX-52."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with PEL-89, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "PEL-89",
+      "expected_symbol": "GOL-41",
+      "forbidden_symbols": [
+        "TEK-95"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with JOT-91, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "JOT-91",
+      "expected_symbol": "WIR-52",
+      "forbidden_symbols": [
+        "WIR-97"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with WIR-69, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "WIR-69",
+      "expected_symbol": "MUR-91",
+      "forbidden_symbols": [
+        "BEX-52"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

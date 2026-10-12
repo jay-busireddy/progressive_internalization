@@ -1,0 +1,126 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving CYN-86 and WIR-84, the accepted terminal code is JOT-12; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with WIR-84 is DEX-28."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active VOR-72 is present, it produces CYN-86."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating NIX-46 converts VOR-72 into its active form."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When CYN-86 encounters WIR-84, the validated terminal code becomes JOT-12."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When DEX-36 encounters ZIR-50, the validated terminal code becomes KEL-16."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-36 and ZIR-50, the accepted terminal code is KEL-16; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-50 is LOQ-35."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active FAR-64 is present, it produces DEX-36."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating XAN-75 converts FAR-64 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active PEL-24 is present, it produces WAM-76."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating KEL-53 converts PEL-24 into its active form."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When WAM-76 encounters JOT-61, the validated terminal code becomes GOL-34."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with JOT-61 is BEX-28."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving WAM-76 and JOT-61, the accepted terminal code is GOL-34; lower-authority alternatives are superseded."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o15",
+      "o12",
+      "o11",
+      "o13"
+    ],
+    [
+      "o03",
+      "o04",
+      "o05",
+      "o02",
+      "o01"
+    ],
+    [
+      "o07",
+      "o06",
+      "o08",
+      "o10",
+      "o09"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "Activating NIX-46 and XAN-75 will produce GOL-34.",
+      "text": "Activating NIX-46 and XAN-75 will produce GOL-34.",
+      "evidence_ids": [
+        "o11",
+        "o14",
+        "o12",
+        "o13",
+        "o01",
+        "o02",
+        "o03",
+        "o04",
+        "o05",
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"Activating NIX-46 and XAN-75 will produce GOL-34.\",\n      \"evidence_ids\": [\"o11\", \"o14\", \"o12\", \"o13\", \"o01\", \"o02\", \"o03\", \"o04\", \"o05\", \"o06\", \"o07\", \"o08\", \"o09\"],\n      \"confidence\": 0.8\n    }\n  ]\n}\n```"
+}

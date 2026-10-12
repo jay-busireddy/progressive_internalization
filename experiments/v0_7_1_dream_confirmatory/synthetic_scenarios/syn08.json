@@ -1,0 +1,129 @@
+{
+  "id": "syn08",
+  "name": "Untouched Dream Confirmation World 08",
+  "world_seed": 10196,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating WIR-55 converts NIX-61 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active NIX-61 is present, it produces BEX-62."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BEX-62 encounters VOR-61, the validated terminal code becomes XAN-48."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-62 and VOR-61, the accepted terminal code is XAN-48; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with VOR-61 is LOQ-30."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating RAV-17 converts SIV-97 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active SIV-97 is present, it produces BEX-70."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When BEX-70 encounters FEN-61, the validated terminal code becomes SIV-93."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-70 and FEN-61, the accepted terminal code is SIV-93; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FEN-61 is FAR-67."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating BIR-91 converts CYN-60 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active CYN-60 is present, it produces ZIR-19."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When ZIR-19 encounters DEX-30, the validated terminal code becomes JOT-56."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving ZIR-19 and DEX-30, the accepted terminal code is JOT-56; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with DEX-30 is XAN-57."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with WIR-55, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "WIR-55",
+      "expected_symbol": "XAN-48",
+      "forbidden_symbols": [
+        "LOQ-30"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with RAV-17, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "RAV-17",
+      "expected_symbol": "SIV-93",
+      "forbidden_symbols": [
+        "FAR-67"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with BIR-91, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "BIR-91",
+      "expected_symbol": "JOT-56",
+      "forbidden_symbols": [
+        "XAN-57"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

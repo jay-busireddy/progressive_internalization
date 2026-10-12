@@ -1,0 +1,102 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-24 and KEL-97, the accepted terminal code is MUR-91; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with KEL-97 is BEX-52."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active LUM-84 is present, it produces DEX-24."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating WIR-69 converts LUM-84 into its active form."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When DEX-24 encounters KEL-97, the validated terminal code becomes MUR-91."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When SIV-21 encounters HAP-36, the validated terminal code becomes WIR-52."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving SIV-21 and HAP-36, the accepted terminal code is WIR-52; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with HAP-36 is WIR-97."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active FAR-99 is present, it produces SIV-21."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating JOT-91 converts FAR-99 into its active form."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving JOT-85 and PEL-47, the accepted terminal code is GOL-41; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active GOL-79 is present, it produces JOT-85."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating PEL-89 converts GOL-79 into its active form."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When JOT-85 encounters PEL-47, the validated terminal code becomes GOL-41."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with PEL-47 is TEK-95."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o15",
+      "o12",
+      "o11",
+      "o13"
+    ],
+    [
+      "o08",
+      "o09",
+      "o10",
+      "o07",
+      "o06"
+    ],
+    [
+      "o04",
+      "o02",
+      "o01",
+      "o03",
+      "o05"
+    ]
+  ]
+}

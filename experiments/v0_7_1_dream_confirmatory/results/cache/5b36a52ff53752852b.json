@@ -1,0 +1,139 @@
+{
+  "selected_memories": [
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BIR-64 encounters ZIR-77, the validated terminal code becomes LOQ-84."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BIR-64 and ZIR-77, the accepted terminal code is LOQ-84; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active JOT-71 is present, it produces BIR-64."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating LOQ-88 converts JOT-71 into its active form."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-77 is SIV-10."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-29 converts GOL-63 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active GOL-63 is present, it produces ZIR-20."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving ZIR-20 and TEK-27, the accepted terminal code is MUR-30; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with TEK-27 is HAP-65."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When ZIR-20 encounters TEK-27, the validated terminal code becomes MUR-30."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FEN-99 is TEK-40."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When TEK-20 encounters FEN-99, the validated terminal code becomes FEN-86."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active FEN-68 is present, it produces TEK-20."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating GOL-21 converts FEN-68 into its active form."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving TEK-20 and FEN-99, the accepted terminal code is FEN-86; lower-authority alternatives are superseded."
+    }
+  ],
+  "groups": [
+    [
+      "o03",
+      "o04",
+      "o02",
+      "o01",
+      "o05"
+    ],
+    [
+      "o06",
+      "o07",
+      "o09",
+      "o10",
+      "o08"
+    ],
+    [
+      "o15",
+      "o13",
+      "o12",
+      "o11",
+      "o14"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "When active JOT-71 is present, it produces BIR-64, and activating LOQ-88 converts JOT-71 into its active form, thus LOQ-88 indirectly produces BIR-64.",
+      "text": "When active JOT-71 is present, it produces BIR-64, and activating LOQ-88 converts JOT-71 into its active form, thus LOQ-88 indirectly produces BIR-64.",
+      "evidence_ids": [
+        "o01",
+        "o02"
+      ],
+      "confidence": 0.0
+    },
+    {
+      "id": "dr02",
+      "claim": "When active GOL-63 is present, it produces ZIR-20, and ZIR-20 encounters TEK-27 results in MUR-30, thus active GOL-63 indirectly produces MUR-30.",
+      "text": "When active GOL-63 is present, it produces ZIR-20, and ZIR-20 encounters TEK-27 results in MUR-30, thus active GOL-63 indirectly produces MUR-30.",
+      "evidence_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 0.0
+    },
+    {
+      "id": "dr03",
+      "claim": "When active FEN-68 is present, it produces TEK-20, and TEK-20 encounters FEN-99 results in FEN-86, thus active FEN-68 indirectly produces FEN-86.",
+      "text": "When active FEN-68 is present, it produces TEK-20, and TEK-20 encounters FEN-99 results in FEN-86, thus active FEN-68 indirectly produces FEN-86.",
+      "evidence_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ],
+      "confidence": 0.0
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"When active JOT-71 is present, it produces BIR-64, and activating LOQ-88 converts JOT-71 into its active form, thus LOQ-88 indirectly produces BIR-64.\",\n      \"evidence_ids\": [\"o01\", \"o02\"],\n      \"confidence\": 0.0\n    },\n    {\n      \"claim\": \"When active GOL-63 is present, it produces ZIR-20, and ZIR-20 encounters TEK-27 results in MUR-30, thus active GOL-63 indirectly produces MUR-30.\",\n      \"evidence_ids\": [\"o06\", \"o07\", \"o08\", \"o09\"],\n      \"confidence\": 0.0\n    },\n    {\n      \"claim\": \"When active FEN-68 is present, it produces TEK-20, and TEK-20 encounters FEN-99 results in FEN-86, thus active FEN-68 indirectly produces FEN-86.\",\n      \"evidence_ids\": [\"o11\", \"o12\", \"o13\", \"o14\"],\n      \"confidence\": 0.0\n    }\n  ]\n}\n```"
+}

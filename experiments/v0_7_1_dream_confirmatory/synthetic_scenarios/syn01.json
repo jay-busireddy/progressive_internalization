@@ -1,0 +1,129 @@
+{
+  "id": "syn01",
+  "name": "Untouched Dream Confirmation World 01",
+  "world_seed": 9237,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating PEL-54 converts BEX-81 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active BEX-81 is present, it produces BIR-24."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BIR-24 encounters LUM-82, the validated terminal code becomes JOT-75."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BIR-24 and LUM-82, the accepted terminal code is JOT-75; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with LUM-82 is JOT-61."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-98 converts ZIR-61 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active ZIR-61 is present, it produces XAN-22."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When XAN-22 encounters CYN-39, the validated terminal code becomes GOL-66."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-22 and CYN-39, the accepted terminal code is GOL-66; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with CYN-39 is GOL-81."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-54 converts XAN-40 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active XAN-40 is present, it produces MUR-71."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When MUR-71 encounters ZIR-36, the validated terminal code becomes TEK-11."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving MUR-71 and ZIR-36, the accepted terminal code is TEK-11; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-36 is LOQ-26."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with PEL-54, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "PEL-54",
+      "expected_symbol": "JOT-75",
+      "forbidden_symbols": [
+        "JOT-61"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with MUR-98, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "MUR-98",
+      "expected_symbol": "GOL-66",
+      "forbidden_symbols": [
+        "GOL-81"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with MUR-54, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "MUR-54",
+      "expected_symbol": "TEK-11",
+      "forbidden_symbols": [
+        "LOQ-26"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

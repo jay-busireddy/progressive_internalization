@@ -1,0 +1,140 @@
+{
+  "selected_memories": [
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating NIX-51 converts GOL-82 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active GOL-82 is present, it produces XAN-38."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-38 and CYN-24, the accepted terminal code is PEL-31; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with CYN-24 is KEL-76."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When XAN-38 encounters CYN-24, the validated terminal code becomes PEL-31."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with NIX-80 is ZUM-21."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving ZUM-28 and NIX-80, the accepted terminal code is SIV-55; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active BIR-20 is present, it produces ZUM-28."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating XAN-67 converts BIR-20 into its active form."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When ZUM-28 encounters NIX-80, the validated terminal code becomes SIV-55."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving FAR-74 and NIX-64, the accepted terminal code is FEN-53; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active FAR-27 is present, it produces FAR-74."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating TEK-14 converts FAR-27 into its active form."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When FAR-74 encounters NIX-64, the validated terminal code becomes FEN-53."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with NIX-64 is LOQ-22."
+    }
+  ],
+  "groups": [
+    [
+      "o11",
+      "o12",
+      "o14",
+      "o15",
+      "o13"
+    ],
+    [
+      "o05",
+      "o04",
+      "o02",
+      "o01",
+      "o03"
+    ],
+    [
+      "o09",
+      "o07",
+      "o06",
+      "o08",
+      "o10"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "Activating NIX-51 converts GOL-82 into its active form, which then produces XAN-38, and when XAN-38 encounters CYN-24, the validated terminal code becomes PEL-31.",
+      "text": "Activating NIX-51 converts GOL-82 into its active form, which then produces XAN-38, and when XAN-38 encounters CYN-24, the validated terminal code becomes PEL-31.",
+      "evidence_ids": [
+        "o11",
+        "o12",
+        "o14"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "dr02",
+      "claim": "Activating XAN-67 converts BIR-20 into its active form, which then produces ZUM-28, and when ZUM-28 encounters NIX-80, the validated terminal code becomes SIV-55.",
+      "text": "Activating XAN-67 converts BIR-20 into its active form, which then produces ZUM-28, and when ZUM-28 encounters NIX-80, the validated terminal code becomes SIV-55.",
+      "evidence_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "dr03",
+      "claim": "Activating TEK-14 converts FAR-27 into its active form, which then produces FAR-74, and when FAR-74 encounters NIX-64, the validated terminal code becomes FEN-53.",
+      "text": "Activating TEK-14 converts FAR-27 into its active form, which then produces FAR-74, and when FAR-74 encounters NIX-64, the validated terminal code becomes FEN-53.",
+      "evidence_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"Activating NIX-51 converts GOL-82 into its active form, which then produces XAN-38, and when XAN-38 encounters CYN-24, the validated terminal code becomes PEL-31.\",\n      \"evidence_ids\": [\"o11\", \"o12\", \"o14\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"claim\": \"Activating XAN-67 converts BIR-20 into its active form, which then produces ZUM-28, and when ZUM-28 encounters NIX-80, the validated terminal code becomes SIV-55.\",\n      \"evidence_ids\": [\"o01\", \"o02\", \"o03\", \"o04\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"claim\": \"Activating TEK-14 converts FAR-27 into its active form, which then produces FAR-74, and when FAR-74 encounters NIX-64, the validated terminal code becomes FEN-53.\",\n      \"evidence_ids\": [\"o06\", \"o07\", \"o08\", \"o09\"],\n      \"confidence\": 0.9\n    }\n  ]\n}\n```"
+}

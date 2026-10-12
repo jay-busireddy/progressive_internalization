@@ -1,0 +1,129 @@
+{
+  "id": "syn09",
+  "name": "Untouched Dream Confirmation World 09",
+  "world_seed": 10333,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-68 converts HAP-33 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active HAP-33 is present, it produces BEX-42."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BEX-42 encounters BEX-65, the validated terminal code becomes DEX-46."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-42 and BEX-65, the accepted terminal code is DEX-46; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with BEX-65 is DEX-89."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating TEK-11 converts BEX-14 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active BEX-14 is present, it produces KEL-89."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When KEL-89 encounters GOL-67, the validated terminal code becomes XAN-85."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving KEL-89 and GOL-67, the accepted terminal code is XAN-85; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with GOL-67 is VOR-90."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating VOR-42 converts CYN-37 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active CYN-37 is present, it produces NIX-56."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When NIX-56 encounters TEK-81, the validated terminal code becomes WIR-76."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving NIX-56 and TEK-81, the accepted terminal code is WIR-76; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with TEK-81 is LUM-68."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with MUR-68, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "MUR-68",
+      "expected_symbol": "DEX-46",
+      "forbidden_symbols": [
+        "DEX-89"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with TEK-11, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "TEK-11",
+      "expected_symbol": "XAN-85",
+      "forbidden_symbols": [
+        "VOR-90"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with VOR-42, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "VOR-42",
+      "expected_symbol": "WIR-76",
+      "forbidden_symbols": [
+        "LUM-68"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

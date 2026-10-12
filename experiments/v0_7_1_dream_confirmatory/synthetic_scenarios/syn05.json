@@ -1,0 +1,129 @@
+{
+  "id": "syn05",
+  "name": "Untouched Dream Confirmation World 05",
+  "world_seed": 9785,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating TEK-61 converts RAV-65 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active RAV-65 is present, it produces XAN-17."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When XAN-17 encounters GOL-77, the validated terminal code becomes LOQ-80."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-17 and GOL-77, the accepted terminal code is LOQ-80; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with GOL-77 is BIR-49."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating GOL-79 converts WAM-49 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active WAM-49 is present, it produces WAM-62."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When WAM-62 encounters SIV-67, the validated terminal code becomes SIV-13."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving WAM-62 and SIV-67, the accepted terminal code is SIV-13; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with SIV-67 is KEL-36."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating DEX-67 converts ZUM-85 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active ZUM-85 is present, it produces DEX-84."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When DEX-84 encounters LOQ-72, the validated terminal code becomes CYN-78."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-84 and LOQ-72, the accepted terminal code is CYN-78; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with LOQ-72 is HAP-32."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with TEK-61, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "TEK-61",
+      "expected_symbol": "LOQ-80",
+      "forbidden_symbols": [
+        "BIR-49"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with GOL-79, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "GOL-79",
+      "expected_symbol": "SIV-13",
+      "forbidden_symbols": [
+        "KEL-36"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with DEX-67, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "DEX-67",
+      "expected_symbol": "CYN-78",
+      "forbidden_symbols": [
+        "HAP-32"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

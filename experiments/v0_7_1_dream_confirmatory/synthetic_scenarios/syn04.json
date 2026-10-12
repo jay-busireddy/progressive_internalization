@@ -1,0 +1,129 @@
+{
+  "id": "syn04",
+  "name": "Untouched Dream Confirmation World 04",
+  "world_seed": 9648,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating LOQ-75 converts LUM-39 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active LUM-39 is present, it produces LUM-42."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When LUM-42 encounters FEN-95, the validated terminal code becomes FAR-89."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving LUM-42 and FEN-95, the accepted terminal code is FAR-89; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FEN-95 is FAR-39."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating KEL-39 converts FEN-60 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active FEN-60 is present, it produces JOT-76."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When JOT-76 encounters DEX-24, the validated terminal code becomes PEL-97."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving JOT-76 and DEX-24, the accepted terminal code is PEL-97; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with DEX-24 is CYN-87."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating NIX-29 converts BEX-25 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active BEX-25 is present, it produces BEX-89."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When BEX-89 encounters FAR-81, the validated terminal code becomes WAM-55."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-89 and FAR-81, the accepted terminal code is WAM-55; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FAR-81 is LUM-74."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with LOQ-75, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "LOQ-75",
+      "expected_symbol": "FAR-89",
+      "forbidden_symbols": [
+        "FAR-39"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with KEL-39, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "KEL-39",
+      "expected_symbol": "PEL-97",
+      "forbidden_symbols": [
+        "CYN-87"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with NIX-29, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "NIX-29",
+      "expected_symbol": "WAM-55",
+      "forbidden_symbols": [
+        "LUM-74"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

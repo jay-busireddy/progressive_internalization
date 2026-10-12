@@ -1,0 +1,129 @@
+{
+  "id": "syn03",
+  "name": "Untouched Dream Confirmation World 03",
+  "world_seed": 9511,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating XAN-75 converts FAR-64 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active FAR-64 is present, it produces DEX-36."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When DEX-36 encounters ZIR-50, the validated terminal code becomes KEL-16."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-36 and ZIR-50, the accepted terminal code is KEL-16; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-50 is LOQ-35."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating KEL-53 converts PEL-24 into its active form."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active PEL-24 is present, it produces WAM-76."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When WAM-76 encounters JOT-61, the validated terminal code becomes GOL-34."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving WAM-76 and JOT-61, the accepted terminal code is GOL-34; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with JOT-61 is BEX-28."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating NIX-46 converts VOR-72 into its active form."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active VOR-72 is present, it produces CYN-86."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When CYN-86 encounters WIR-84, the validated terminal code becomes JOT-12."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving CYN-86 and WIR-84, the accepted terminal code is JOT-12; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with WIR-84 is DEX-28."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "For the invented system beginning with XAN-75, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "XAN-75",
+      "expected_symbol": "KEL-16",
+      "forbidden_symbols": [
+        "LOQ-35"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "For the invented system beginning with KEL-53, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "KEL-53",
+      "expected_symbol": "GOL-34",
+      "forbidden_symbols": [
+        "BEX-28"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "For the invented system beginning with NIX-46, which opaque terminal code is ultimately established by the learned chain?",
+      "start_symbol": "NIX-46",
+      "expected_symbol": "JOT-12",
+      "forbidden_symbols": [
+        "DEX-28"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

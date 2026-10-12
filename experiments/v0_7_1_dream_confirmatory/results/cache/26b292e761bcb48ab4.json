@@ -1,0 +1,102 @@
+{
+  "selected_memories": [
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When XAN-22 encounters CYN-39, the validated terminal code becomes GOL-66."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-22 and CYN-39, the accepted terminal code is GOL-66; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active ZIR-61 is present, it produces XAN-22."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-98 converts ZIR-61 into its active form."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with CYN-39 is GOL-81."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active BEX-81 is present, it produces BIR-24."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating PEL-54 converts BEX-81 into its active form."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BIR-24 and LUM-82, the accepted terminal code is JOT-75; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with LUM-82 is JOT-61."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BIR-24 encounters LUM-82, the validated terminal code becomes JOT-75."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When MUR-71 encounters ZIR-36, the validated terminal code becomes TEK-11."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active XAN-40 is present, it produces MUR-71."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-54 converts XAN-40 into its active form."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving MUR-71 and ZIR-36, the accepted terminal code is TEK-11; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-36 is LOQ-26."
+    }
+  ],
+  "groups": [
+    [
+      "o08",
+      "o09",
+      "o07",
+      "o06",
+      "o10"
+    ],
+    [
+      "o02",
+      "o01",
+      "o04",
+      "o05",
+      "o03"
+    ],
+    [
+      "o13",
+      "o12",
+      "o11",
+      "o14",
+      "o15"
+    ]
+  ]
+}

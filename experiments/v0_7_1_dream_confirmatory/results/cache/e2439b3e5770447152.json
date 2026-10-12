@@ -1,0 +1,135 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving DEX-84 and LOQ-72, the accepted terminal code is CYN-78; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active ZUM-85 is present, it produces DEX-84."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating DEX-67 converts ZUM-85 into its active form."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with LOQ-72 is HAP-32."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When DEX-84 encounters LOQ-72, the validated terminal code becomes CYN-78."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating TEK-61 converts RAV-65 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active RAV-65 is present, it produces XAN-17."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-17 and GOL-77, the accepted terminal code is LOQ-80; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with GOL-77 is BIR-49."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When XAN-17 encounters GOL-77, the validated terminal code becomes LOQ-80."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving WAM-62 and SIV-67, the accepted terminal code is SIV-13; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active WAM-49 is present, it produces WAM-62."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating GOL-79 converts WAM-49 into its active form."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with SIV-67 is KEL-36."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When WAM-62 encounters SIV-67, the validated terminal code becomes SIV-13."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o12",
+      "o11",
+      "o15",
+      "o13"
+    ],
+    [
+      "o01",
+      "o02",
+      "o04",
+      "o05",
+      "o03"
+    ],
+    [
+      "o09",
+      "o07",
+      "o06",
+      "o10",
+      "o08"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "When active ZUM-85 is present, it produces DEX-84, and DEX-84 encountering LOQ-72 results in the validated terminal code CYN-78.",
+      "text": "When active ZUM-85 is present, it produces DEX-84, and DEX-84 encountering LOQ-72 results in the validated terminal code CYN-78.",
+      "evidence_ids": [
+        "o12",
+        "o13"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "dr02",
+      "claim": "When active RAV-65 is present, it produces XAN-17, and XAN-17 encountering GOL-77 results in the validated terminal code LOQ-80.",
+      "text": "When active RAV-65 is present, it produces XAN-17, and XAN-17 encountering GOL-77 results in the validated terminal code LOQ-80.",
+      "evidence_ids": [
+        "o02",
+        "o03"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "dr03",
+      "claim": "When active WAM-49 is present, it produces WAM-62, and WAM-62 encountering SIV-67 results in the validated terminal code SIV-13.",
+      "text": "When active WAM-49 is present, it produces WAM-62, and WAM-62 encountering SIV-67 results in the validated terminal code SIV-13.",
+      "evidence_ids": [
+        "o06",
+        "o08"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"When active ZUM-85 is present, it produces DEX-84, and DEX-84 encountering LOQ-72 results in the validated terminal code CYN-78.\",\n      \"evidence_ids\": [\"o12\", \"o13\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"claim\": \"When active RAV-65 is present, it produces XAN-17, and XAN-17 encountering GOL-77 results in the validated terminal code LOQ-80.\",\n      \"evidence_ids\": [\"o02\", \"o03\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"claim\": \"When active WAM-49 is present, it produces WAM-62, and WAM-62 encountering SIV-67 results in the validated terminal code SIV-13.\",\n      \"evidence_ids\": [\"o06\", \"o08\"],\n      \"confidence\": 0.8\n    }\n  ]\n}\n```"
+}

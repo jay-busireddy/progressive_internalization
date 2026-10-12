@@ -1,0 +1,138 @@
+{
+  "selected_memories": [
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with GOL-67 is VOR-90."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When KEL-89 encounters GOL-67, the validated terminal code becomes XAN-85."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active BEX-14 is present, it produces KEL-89."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating TEK-11 converts BEX-14 into its active form."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving KEL-89 and GOL-67, the accepted terminal code is XAN-85; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When NIX-56 encounters TEK-81, the validated terminal code becomes WIR-76."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active CYN-37 is present, it produces NIX-56."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating VOR-42 converts CYN-37 into its active form."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with TEK-81 is LUM-68."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving NIX-56 and TEK-81, the accepted terminal code is WIR-76; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating MUR-68 converts HAP-33 into its active form."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active HAP-33 is present, it produces BEX-42."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When BEX-42 encounters BEX-65, the validated terminal code becomes DEX-46."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with BEX-65 is DEX-89."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-42 and BEX-65, the accepted terminal code is DEX-46; lower-authority alternatives are superseded."
+    }
+  ],
+  "groups": [
+    [
+      "o10",
+      "o08",
+      "o07",
+      "o06",
+      "o09"
+    ],
+    [
+      "o13",
+      "o12",
+      "o11",
+      "o15",
+      "o14"
+    ],
+    [
+      "o01",
+      "o02",
+      "o03",
+      "o05",
+      "o04"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "When active BEX-14 is present, it produces KEL-89, which then encounters GOL-67 to produce XAN-85.",
+      "text": "When active BEX-14 is present, it produces KEL-89, which then encounters GOL-67 to produce XAN-85.",
+      "evidence_ids": [
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "dr02",
+      "claim": "When active CYN-37 is present, it produces NIX-56, which then encounters TEK-81 to produce WIR-76.",
+      "text": "When active CYN-37 is present, it produces NIX-56, which then encounters TEK-81 to produce WIR-76.",
+      "evidence_ids": [
+        "o12",
+        "o13",
+        "o14"
+      ],
+      "confidence": 0.8
+    },
+    {
+      "id": "dr03",
+      "claim": "When active HAP-33 is present, it produces BEX-42, which then encounters BEX-65 to produce DEX-46.",
+      "text": "When active HAP-33 is present, it produces BEX-42, which then encounters BEX-65 to produce DEX-46.",
+      "evidence_ids": [
+        "o02",
+        "o03",
+        "o04"
+      ],
+      "confidence": 0.8
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"When active BEX-14 is present, it produces KEL-89, which then encounters GOL-67 to produce XAN-85.\",\n      \"evidence_ids\": [\"o07\", \"o08\", \"o09\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"claim\": \"When active CYN-37 is present, it produces NIX-56, which then encounters TEK-81 to produce WIR-76.\",\n      \"evidence_ids\": [\"o12\", \"o13\", \"o14\"],\n      \"confidence\": 0.8\n    },\n    {\n      \"claim\": \"When active HAP-33 is present, it produces BEX-42, which then encounters BEX-65 to produce DEX-46.\",\n      \"evidence_ids\": [\"o02\", \"o03\", \"o04\"],\n      \"confidence\": 0.8\n    }\n  ]\n}\n```"
+}

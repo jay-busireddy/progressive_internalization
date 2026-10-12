@@ -1,0 +1,138 @@
+{
+  "selected_memories": [
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active LUM-39 is present, it produces LUM-42."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating LOQ-75 converts LUM-39 into its active form."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving LUM-42 and FEN-95, the accepted terminal code is FAR-89; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FEN-95 is FAR-39."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When LUM-42 encounters FEN-95, the validated terminal code becomes FAR-89."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with DEX-24 is CYN-87."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving JOT-76 and DEX-24, the accepted terminal code is PEL-97; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active FEN-60 is present, it produces JOT-76."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating KEL-39 converts FEN-60 into its active form."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When JOT-76 encounters DEX-24, the validated terminal code becomes PEL-97."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When BEX-89 encounters FAR-81, the validated terminal code becomes WAM-55."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with FAR-81 is LUM-74."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active BEX-25 is present, it produces BEX-89."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating NIX-29 converts BEX-25 into its active form."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving BEX-89 and FAR-81, the accepted terminal code is WAM-55; lower-authority alternatives are superseded."
+    }
+  ],
+  "groups": [
+    [
+      "o02",
+      "o01",
+      "o04",
+      "o05",
+      "o03"
+    ],
+    [
+      "o10",
+      "o09",
+      "o07",
+      "o06",
+      "o08"
+    ],
+    [
+      "o13",
+      "o15",
+      "o12",
+      "o11",
+      "o14"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "Activating LOQ-75 converts FEN-60 into its active form, and active FEN-60 produces JOT-76, which, when encountered with DEX-24, results in the validated terminal code PEL-97.",
+      "text": "Activating LOQ-75 converts FEN-60 into its active form, and active FEN-60 produces JOT-76, which, when encountered with DEX-24, results in the validated terminal code PEL-97.",
+      "evidence_ids": [
+        "o01",
+        "o06",
+        "o08"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "dr02",
+      "claim": "When active BEX-25 is present, it produces BEX-89, and active BEX-89, when encountered with FAR-81, results in the validated terminal code WAM-55.",
+      "text": "When active BEX-25 is present, it produces BEX-89, and active BEX-89, when encountered with FAR-81, results in the validated terminal code WAM-55.",
+      "evidence_ids": [
+        "o11",
+        "o12",
+        "o14"
+      ],
+      "confidence": 0.9
+    },
+    {
+      "id": "dr03",
+      "claim": "When active LUM-39 is present, it produces LUM-42, and LUM-42, when encountered with FEN-95, results in the validated terminal code FAR-89.",
+      "text": "When active LUM-39 is present, it produces LUM-42, and LUM-42, when encountered with FEN-95, results in the validated terminal code FAR-89.",
+      "evidence_ids": [
+        "o02",
+        "o03",
+        "o04"
+      ],
+      "confidence": 0.9
+    }
+  ],
+  "raw_dream": "```json\n{\n  \"derived_relations\": [\n    {\n      \"claim\": \"Activating LOQ-75 converts FEN-60 into its active form, and active FEN-60 produces JOT-76, which, when encountered with DEX-24, results in the validated terminal code PEL-97.\",\n      \"evidence_ids\": [\"o01\", \"o06\", \"o08\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"claim\": \"When active BEX-25 is present, it produces BEX-89, and active BEX-89, when encountered with FAR-81, results in the validated terminal code WAM-55.\",\n      \"evidence_ids\": [\"o11\", \"o12\", \"o14\"],\n      \"confidence\": 0.9\n    },\n    {\n      \"claim\": \"When active LUM-39 is present, it produces LUM-42, and LUM-42, when encountered with FEN-95, results in the validated terminal code FAR-89.\",\n      \"evidence_ids\": [\"o02\", \"o03\", \"o04\"],\n      \"confidence\": 0.9\n    }\n  ]\n}\n```"
+}

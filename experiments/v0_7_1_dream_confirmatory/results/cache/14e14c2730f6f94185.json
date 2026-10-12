@@ -1,0 +1,102 @@
+{
+  "selected_memories": [
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "When FEN-62 encounters ZIR-66, the validated terminal code becomes ZUM-11."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with ZIR-66 is LOQ-42."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving FEN-62 and ZIR-66, the accepted terminal code is ZUM-11; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "When active MUR-99 is present, it produces FEN-62."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "Official rule: activating BIR-35 converts MUR-99 into its active form."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "When XAN-51 encounters JOT-50, the validated terminal code becomes MUR-82."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving XAN-51 and JOT-50, the accepted terminal code is MUR-82; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "When active NIX-86 is present, it produces XAN-51."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "Official rule: activating BEX-30 converts NIX-86 into its active form."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with JOT-50 is LOQ-60."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: for the chain involving GOL-56 and VOR-32, the accepted terminal code is MUR-19; lower-authority alternatives are superseded."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Unverified rumor claims the terminal code associated with VOR-32 is JOT-63."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "When active RAV-31 is present, it produces GOL-56."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "Official rule: activating JOT-29 converts RAV-31 into its active form."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "When GOL-56 encounters VOR-32, the validated terminal code becomes MUR-19."
+    }
+  ],
+  "groups": [
+    [
+      "o08",
+      "o10",
+      "o09",
+      "o07",
+      "o06"
+    ],
+    [
+      "o13",
+      "o14",
+      "o12",
+      "o11",
+      "o15"
+    ],
+    [
+      "o04",
+      "o05",
+      "o02",
+      "o01",
+      "o03"
+    ]
+  ]
+}
