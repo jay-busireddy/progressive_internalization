@@ -1,0 +1,209 @@
+{
+  "id": "syn06",
+  "name": "Untouched Curiosity Confirmation World 06",
+  "world_seed": 18358,
+  "observations": [
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-12 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-12 stage 1, GOL-76 changes into ZUM-76."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-12 stage 2, ZUM-76 changes into LOQ-46."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-12 stage 4, JOT-54 changes into terminal marker KEL-72."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-67 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-67 stage 1, VOR-79 changes into NIX-61."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-67 stage 2, NIX-61 changes into BEX-24."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-67 stage 4, XAN-46 changes into terminal marker LOQ-62."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-15 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-15 stage 1, FAR-75 changes into WIR-66."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-15 stage 2, WIR-66 changes into BIR-65."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-15 stage 4, PEL-55 changes into terminal marker NIX-27."
+    }
+  ],
+  "candidate_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-12: LOQ-46 changes into JOT-54."
+    },
+    {
+      "id": "r01",
+      "source": "rumor",
+      "text": "Rumor about PRC-12 stage 3: LOQ-46 changes into VOR-35."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-67: BEX-24 changes into XAN-46."
+    },
+    {
+      "id": "r02",
+      "source": "rumor",
+      "text": "Rumor about PRC-67 stage 3: BEX-24 changes into KEL-85."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-15: BIR-65 changes into PEL-55."
+    },
+    {
+      "id": "r03",
+      "source": "rumor",
+      "text": "Rumor about PRC-15 stage 3: BIR-65 changes into BEX-34."
+    },
+    {
+      "id": "d01",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-55: stage 3 maps LUM-74 into BEX-13."
+    },
+    {
+      "id": "d02",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-58: stage 3 maps BIR-99 into MUR-35."
+    },
+    {
+      "id": "d03",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-61: stage 3 maps WIR-96 into TEK-34."
+    },
+    {
+      "id": "d04",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-64: stage 3 maps DEX-13 into SIV-42."
+    },
+    {
+      "id": "d05",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-67: stage 3 maps BIR-95 into RAV-79."
+    },
+    {
+      "id": "d06",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-70: stage 3 maps JOT-39 into CYN-95."
+    },
+    {
+      "id": "d07",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-73: stage 3 maps FEN-55 into WIR-61."
+    },
+    {
+      "id": "d08",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-76: stage 3 maps JOT-94 into DEX-67."
+    },
+    {
+      "id": "d09",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-79: stage 3 maps GOL-89 into PEL-78."
+    },
+    {
+      "id": "d10",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-82: stage 3 maps BEX-63 into FAR-86."
+    },
+    {
+      "id": "d11",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-85: stage 3 maps KEL-16 into BEX-54."
+    },
+    {
+      "id": "d12",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-88: stage 3 maps ZIR-49 into XAN-37."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Starting from GOL-76, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "GOL-76",
+      "expected_symbol": "KEL-72",
+      "process": "PRC-12",
+      "gap_from": "LOQ-46",
+      "gap_to": "JOT-54",
+      "correct_document_id": "c01",
+      "initial_observation_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "o1d"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Starting from VOR-79, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "VOR-79",
+      "expected_symbol": "LOQ-62",
+      "process": "PRC-67",
+      "gap_from": "BEX-24",
+      "gap_to": "XAN-46",
+      "correct_document_id": "c02",
+      "initial_observation_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "o2d"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Starting from FAR-75, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "FAR-75",
+      "expected_symbol": "NIX-27",
+      "process": "PRC-15",
+      "gap_from": "BIR-65",
+      "gap_to": "PEL-55",
+      "correct_document_id": "c03",
+      "initial_observation_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "o3d"
+      ]
+    }
+  ]
+}
