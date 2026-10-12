@@ -1,0 +1,129 @@
+{
+  "id": "syn01",
+  "name": "Dream World 01",
+  "world_seed": 101,
+  "observations": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When QAV-23 is activated, it changes MEX-34 into an active carrier."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active MEX-34 causes TUL-45 to be emitted."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever TUL-45 reaches PIM-56, that PIM-56 adopts the terminal marker RUK-67."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of TUL-45 through PIM-56 is RUK-67; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims PIM-56 instead carries terminal marker BAD-84."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When QAV-40 is activated, it changes MEX-51 into an active carrier."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active MEX-51 causes TUL-62 to be emitted."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever TUL-62 reaches PIM-73, that PIM-73 adopts the terminal marker RUK-84."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of TUL-62 through PIM-73 is RUK-84; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims PIM-73 instead carries terminal marker BAD-11."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When QAV-57 is activated, it changes MEX-68 into an active carrier."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active MEX-68 causes TUL-79 to be emitted."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever TUL-79 reaches PIM-90, that PIM-90 adopts the terminal marker RUK-12."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of TUL-79 through PIM-90 is RUK-12; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims PIM-90 instead carries terminal marker BAD-29."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Starting from QAV-23, what opaque terminal marker is ultimately reached through the learned transformation chain?",
+      "start_symbol": "QAV-23",
+      "expected_symbol": "RUK-67",
+      "forbidden_symbols": [
+        "BAD-84"
+      ],
+      "oracle_observation_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Starting from QAV-40, what opaque terminal marker is ultimately reached through the learned transformation chain?",
+      "start_symbol": "QAV-40",
+      "expected_symbol": "RUK-84",
+      "forbidden_symbols": [
+        "BAD-11"
+      ],
+      "oracle_observation_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Starting from QAV-57, what opaque terminal marker is ultimately reached through the learned transformation chain?",
+      "start_symbol": "QAV-57",
+      "expected_symbol": "RUK-12",
+      "forbidden_symbols": [
+        "BAD-29"
+      ],
+      "oracle_observation_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ]
+    }
+  ]
+}

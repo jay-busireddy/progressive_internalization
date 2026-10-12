@@ -1,0 +1,102 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of JOR-92 through VEL-14 is SAD-25; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever JOR-92 reaches VEL-14, that VEL-14 adopts the terminal marker SAD-25."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active NAK-81 causes JOR-92 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When RUV-70 is activated, it changes NAK-81 into an active carrier."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims VEL-14 instead carries terminal marker BAD-42."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever JOR-58 reaches VEL-69, that VEL-69 adopts the terminal marker SAD-80."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active NAK-47 causes JOR-58 to be emitted."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When RUV-36 is activated, it changes NAK-47 into an active carrier."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of JOR-58 through VEL-69 is SAD-80; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims VEL-69 instead carries terminal marker BAD-97."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of JOR-75 through VEL-86 is SAD-97; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active NAK-64 causes JOR-75 to be emitted."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When RUV-53 is activated, it changes NAK-64 into an active carrier."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims VEL-86 instead carries terminal marker BAD-24."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever JOR-75 reaches VEL-86, that VEL-86 adopts the terminal marker SAD-97."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o13",
+      "o12",
+      "o11",
+      "o15"
+    ],
+    [
+      "o03",
+      "o02",
+      "o01",
+      "o04",
+      "o05"
+    ],
+    [
+      "o09",
+      "o07",
+      "o06",
+      "o10",
+      "o08"
+    ]
+  ]
+}

@@ -1,0 +1,102 @@
+{
+  "selected_memories": [
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active YAV-70 causes PEX-81 to be emitted."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever PEX-81 reaches DOM-92, that DOM-92 adopts the terminal marker GIR-14."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims DOM-92 instead carries terminal marker BAD-31."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of PEX-81 through DOM-92 is GIR-14; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When SUL-59 is activated, it changes YAV-70 into an active carrier."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active YAV-36 causes PEX-47 to be emitted."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When SUL-25 is activated, it changes YAV-36 into an active carrier."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of PEX-47 through DOM-58 is GIR-69; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims DOM-58 instead carries terminal marker BAD-86."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever PEX-47 reaches DOM-58, that DOM-58 adopts the terminal marker GIR-69."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims DOM-75 instead carries terminal marker BAD-13."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of PEX-64 through DOM-75 is GIR-86; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active YAV-53 causes PEX-64 to be emitted."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When SUL-42 is activated, it changes YAV-53 into an active carrier."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever PEX-64 reaches DOM-75, that DOM-75 adopts the terminal marker GIR-86."
+    }
+  ],
+  "groups": [
+    [
+      "o12",
+      "o13",
+      "o15",
+      "o14",
+      "o11"
+    ],
+    [
+      "o02",
+      "o01",
+      "o04",
+      "o05",
+      "o03"
+    ],
+    [
+      "o10",
+      "o09",
+      "o07",
+      "o06",
+      "o08"
+    ]
+  ]
+}

@@ -1,0 +1,104 @@
+{
+  "selected_memories": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When ZOR-62 is activated, it changes BEX-73 into an active carrier."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active BEX-73 causes CAV-84 to be emitted."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever CAV-84 reaches NIM-95, that NIM-95 adopts the terminal marker HUT-17."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims NIM-95 instead carries terminal marker BAD-34."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of CAV-84 through NIM-95 is HUT-17; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active BEX-18 causes CAV-29 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When ZOR-96 is activated, it changes BEX-18 into an active carrier."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever CAV-29 reaches NIM-40, that NIM-40 adopts the terminal marker HUT-51."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims NIM-40 instead carries terminal marker BAD-68."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of CAV-29 through NIM-40 is HUT-51; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When ZOR-79 is activated, it changes BEX-90 into an active carrier."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active BEX-90 causes CAV-12 to be emitted."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of CAV-12 through NIM-23 is HUT-34; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims NIM-23 instead carries terminal marker BAD-51."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever CAV-12 reaches NIM-23, that NIM-23 adopts the terminal marker HUT-34."
+    }
+  ],
+  "groups": [
+    [
+      "o01",
+      "o02",
+      "o03",
+      "o05",
+      "o04"
+    ],
+    [
+      "o12",
+      "o11",
+      "o13",
+      "o15",
+      "o14"
+    ],
+    [
+      "o06",
+      "o07",
+      "o09",
+      "o10",
+      "o08"
+    ]
+  ],
+  "derived_relations": [],
+  "raw_dream": " {\"derived_relations\":[\n  {\n    \"claim\":\"When ZOR-62 is activated, it changes BEX-73 into an active carrier, which in turn causes CAV-84 to be emitted.\",\n    \"evidence_ids\":[\"o01\",\"o02\"],\n    \"confidence\":0.9\n  },\n  {\n    \"claim\":\"Whenever CAV-84 reaches NIM-95, that NIM-95 adopts the terminal marker HUT-17, according to the official manual.\",\n    \"evidence_ids\":[\"o03\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"Ignoring any lower-authority alternatives, the valid terminal marker downstream of CAV-84 through NIM-95 is HUT-17, as stated in the official revision.\",\n    \"evidence_ids\":[\"o04\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"When ZOR-96 is activated, it changes BEX-18 into an active carrier, which in turn causes CAV-29 to be emitted.\",\n    \"evidence_ids\":[\"o11\",\"o12\"],\n    \"confidence\":0.9\n  },\n  {\n    \"claim\":\"Whenever CAV-29 reaches NIM-40, that NIM-40 adopts the terminal marker HUT-51, according to the official manual.\",\n    \"evidence_ids\":[\"o13\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"Ignoring any lower-authority alternatives, the valid terminal marker downstream of CAV-29 through NIM-40 is HUT-51, as stated in the official revision.\",\n    \"evidence_ids\":[\"o14\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"When ZOR-79 is activated, it changes BEX-90 into an active carrier, which in turn causes CAV-12 to be emitted.\",\n    \"evidence_ids\":[\"o06\",\"o07\"],"
+}

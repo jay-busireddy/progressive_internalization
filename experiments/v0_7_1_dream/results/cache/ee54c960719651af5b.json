@@ -1,0 +1,169 @@
+{
+  "selected_memories": [
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever NOL-51 reaches KEM-62, that KEM-62 adopts the terminal marker RIZ-73."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of NOL-51 through KEM-62 is RIZ-73; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active JAX-40 causes NOL-51 to be emitted."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When FER-29 is activated, it changes JAX-40 into an active carrier."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims KEM-62 instead carries terminal marker BAD-90."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of NOL-68 through KEM-79 is RIZ-90; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims KEM-79 instead carries terminal marker BAD-17."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active JAX-57 causes NOL-68 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When FER-46 is activated, it changes JAX-57 into an active carrier."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever NOL-68 reaches KEM-79, that KEM-79 adopts the terminal marker RIZ-90."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active JAX-23 causes NOL-34 to be emitted."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of NOL-34 through KEM-45 is RIZ-56; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims KEM-45 instead carries terminal marker BAD-73."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When FER-12 is activated, it changes JAX-23 into an active carrier."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever NOL-34 reaches KEM-45, that KEM-45 adopts the terminal marker RIZ-56."
+    }
+  ],
+  "groups": [
+    [
+      "o08",
+      "o09",
+      "o07",
+      "o06",
+      "o10"
+    ],
+    [
+      "o14",
+      "o15",
+      "o12",
+      "o11",
+      "o13"
+    ],
+    [
+      "o02",
+      "o04",
+      "o05",
+      "o01",
+      "o03"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "KEM-45 adopts the terminal marker RIZ-56 downstream of NOL-34",
+      "text": "KEM-45 adopts the terminal marker RIZ-56 downstream of NOL-34",
+      "evidence_ids": [
+        "o01",
+        "o03",
+        "o04"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "dr02",
+      "claim": "KEM-79 adopts the terminal marker RIZ-90 downstream of NOL-68",
+      "text": "KEM-79 adopts the terminal marker RIZ-90 downstream of NOL-68",
+      "evidence_ids": [
+        "o11",
+        "o13",
+        "o14"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "dr03",
+      "claim": "KEM-62 adopts the terminal marker RIZ-73 downstream of NOL-51",
+      "text": "KEM-62 adopts the terminal marker RIZ-73 downstream of NOL-51",
+      "evidence_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "dr04",
+      "claim": "It is a rumor that KEM-45 carries terminal marker BAD-73",
+      "text": "It is a rumor that KEM-45 carries terminal marker BAD-73",
+      "evidence_ids": [
+        "o02",
+        "o05"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "id": "dr05",
+      "claim": "It is a rumor that KEM-79 instead carries terminal marker BAD-17",
+      "text": "It is a rumor that KEM-79 instead carries terminal marker BAD-17",
+      "evidence_ids": [
+        "o12",
+        "o15"
+      ],
+      "confidence": 0.1
+    },
+    {
+      "id": "dr06",
+      "claim": "It is a rumor that KEM-62 instead carries terminal marker BAD-90",
+      "text": "It is a rumor that KEM-62 instead carries terminal marker BAD-90",
+      "evidence_ids": [
+        "o08",
+        "o10"
+      ],
+      "confidence": 0.1
+    }
+  ],
+  "raw_dream": " {\"derived_relations\":[\n  {\n    \"claim\":\"KEM-45 adopts the terminal marker RIZ-56 downstream of NOL-34\",\n    \"evidence_ids\":[\"o01\",\"o03\",\"o04\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"KEM-79 adopts the terminal marker RIZ-90 downstream of NOL-68\",\n    \"evidence_ids\":[\"o11\",\"o13\",\"o14\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"KEM-62 adopts the terminal marker RIZ-73 downstream of NOL-51\",\n    \"evidence_ids\":[\"o06\",\"o07\",\"o08\",\"o09\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"It is a rumor that KEM-45 carries terminal marker BAD-73\",\n    \"evidence_ids\":[\"o02\",\"o05\"],\n    \"confidence\":0.1\n  },\n  {\n    \"claim\":\"It is a rumor that KEM-79 instead carries terminal marker BAD-17\",\n    \"evidence_ids\":[\"o12\",\"o15\"],\n    \"confidence\":0.1\n  },\n  {\n    \"claim\":\"It is a rumor that KEM-62 instead carries terminal marker BAD-90\",\n    \"evidence_ids\":[\"o08\",\"o10\"],\n    \"confidence\":0.1\n  }\n]}"
+}

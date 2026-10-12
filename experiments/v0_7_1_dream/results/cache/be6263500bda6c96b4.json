@@ -1,0 +1,104 @@
+{
+  "selected_memories": [
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When LOR-88 is activated, it changes TAM-10 into an active carrier."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active TAM-10 causes VIX-21 to be emitted."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever VIX-21 reaches QEN-32, that QEN-32 adopts the terminal marker BUP-43."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims QEN-32 instead carries terminal marker BAD-60."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of VIX-21 through QEN-32 is BUP-43; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever VIX-38 reaches QEN-49, that QEN-49 adopts the terminal marker BUP-60."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of VIX-38 through QEN-49 is BUP-60; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims QEN-49 instead carries terminal marker BAD-77."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active TAM-27 causes VIX-38 to be emitted."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When LOR-16 is activated, it changes TAM-27 into an active carrier."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active TAM-44 causes VIX-55 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When LOR-33 is activated, it changes TAM-44 into an active carrier."
+    },
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of VIX-55 through QEN-66 is BUP-77; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims QEN-66 instead carries terminal marker BAD-94."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever VIX-55 reaches QEN-66, that QEN-66 adopts the terminal marker BUP-77."
+    }
+  ],
+  "groups": [
+    [
+      "o01",
+      "o02",
+      "o03",
+      "o05",
+      "o04"
+    ],
+    [
+      "o08",
+      "o09",
+      "o10",
+      "o07",
+      "o06"
+    ],
+    [
+      "o12",
+      "o11",
+      "o14",
+      "o15",
+      "o13"
+    ]
+  ],
+  "derived_relations": [],
+  "raw_dream": " {\"derived_relations\":[\n  {\n    \"claim\":\"When LOR-88 is activated, it changes TAM-10 into an active carrier, and an active TAM-10 causes VIX-21 to be emitted.\",\n    \"evidence_ids\":[\"o01\",\"o02\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"Whenever VIX-21 reaches QEN-32, that QEN-32 adopts the terminal marker BUP-43.\",\n    \"evidence_ids\":[\"o02\",\"o03\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"When LOR-16 is activated, it changes TAM-27 into an active carrier, and an active TAM-27 causes VIX-38 to be emitted.\",\n    \"evidence_ids\":[\"o06\",\"o07\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"Whenever VIX-38 reaches QEN-49, that QEN-49 adopts the terminal marker BUP-60.\",\n    \"evidence_ids\":[\"o07\",\"o08\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"When LOR-33 is activated, it changes TAM-44 into an active carrier, and an active TAM-44 causes VIX-55 to be emitted.\",\n    \"evidence_ids\":[\"o11\",\"o12\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"Whenever VIX-55 reaches QEN-66, that QEN-66 adopts the terminal marker BUP-77.\",\n    \"evidence_ids\":[\"o12\",\"o13\"],\n    \"confidence\":0.0\n  },\n  {\n    \"claim\":\"The valid terminal marker downstream of VIX-55 through QEN-66 is BUP-77.\",\n    \"evidence_ids\":[\"o13\",\"o14\"],\n    \"confidence\":0"
+}

@@ -1,0 +1,141 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of GEL-42 through SOV-53 is DAX-64; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active WIR-31 causes GEL-42 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When PAK-20 is activated, it changes WIR-31 into an active carrier."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever GEL-42 reaches SOV-53, that SOV-53 adopts the terminal marker DAX-64."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims SOV-53 instead carries terminal marker BAD-81."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When PAK-92 is activated, it changes WIR-14 into an active carrier."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active WIR-14 causes GEL-25 to be emitted."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever GEL-25 reaches SOV-36, that SOV-36 adopts the terminal marker DAX-47."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims SOV-36 instead carries terminal marker BAD-64."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of GEL-25 through SOV-36 is DAX-47; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When PAK-75 is activated, it changes WIR-86 into an active carrier."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active WIR-86 causes GEL-97 to be emitted."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of GEL-97 through SOV-19 is DAX-30; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims SOV-19 instead carries terminal marker BAD-47."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever GEL-97 reaches SOV-19, that SOV-19 adopts the terminal marker DAX-30."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o12",
+      "o11",
+      "o13",
+      "o15"
+    ],
+    [
+      "o06",
+      "o07",
+      "o08",
+      "o10",
+      "o09"
+    ],
+    [
+      "o01",
+      "o02",
+      "o04",
+      "o05",
+      "o03"
+    ]
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "claim": "When PAK-75 is activated, it causes GEL-97 to be emitted, and the valid terminal marker downstream of GEL-97 through SOV-19 is DAX-30.",
+      "text": "When PAK-75 is activated, it causes GEL-97 to be emitted, and the valid terminal marker downstream of GEL-97 through SOV-19 is DAX-30.",
+      "evidence_ids": [
+        "o01",
+        "o02",
+        "o03",
+        "o04"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "dr02",
+      "claim": "Activating PAK-20 changes WIR-31 into an active carrier, and whenever GEL-42 reaches SOV-53, that SOV-53 adopts the terminal marker DAX-64.",
+      "text": "Activating PAK-20 changes WIR-31 into an active carrier, and whenever GEL-42 reaches SOV-53, that SOV-53 adopts the terminal marker DAX-64.",
+      "evidence_ids": [
+        "o11",
+        "o12",
+        "o13",
+        "o14"
+      ],
+      "confidence": 1.0
+    },
+    {
+      "id": "dr03",
+      "claim": "Activating PAK-92 changes WIR-14 into an active carrier, and whenever GEL-25 reaches SOV-36, that SOV-36 adopts the terminal marker DAX-47.",
+      "text": "Activating PAK-92 changes WIR-14 into an active carrier, and whenever GEL-25 reaches SOV-36, that SOV-36 adopts the terminal marker DAX-47.",
+      "evidence_ids": [
+        "o06",
+        "o07",
+        "o08",
+        "o09"
+      ],
+      "confidence": 1.0
+    }
+  ],
+  "raw_dream": " {\"derived_relations\":[\n  {\n    \"claim\":\"When PAK-75 is activated, it causes GEL-97 to be emitted, and the valid terminal marker downstream of GEL-97 through SOV-19 is DAX-30.\",\n    \"evidence_ids\":[\"o01\",\"o02\",\"o03\",\"o04\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"Activating PAK-20 changes WIR-31 into an active carrier, and whenever GEL-42 reaches SOV-53, that SOV-53 adopts the terminal marker DAX-64.\",\n    \"evidence_ids\":[\"o11\",\"o12\",\"o13\",\"o14\"],\n    \"confidence\":1.0\n  },\n  {\n    \"claim\":\"Activating PAK-92 changes WIR-14 into an active carrier, and whenever GEL-25 reaches SOV-36, that SOV-36 adopts the terminal marker DAX-47.\",\n    \"evidence_ids\":[\"o06\",\"o07\",\"o08\",\"o09\"],\n    \"confidence\":1.0\n  }\n]}"
+}

@@ -1,0 +1,104 @@
+{
+  "selected_memories": [
+    {
+      "id": "o14",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of FEX-16 through MOR-27 is LUP-38; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o15",
+      "source": "rumor",
+      "text": "Rumor claims MOR-27 instead carries terminal marker BAD-55."
+    },
+    {
+      "id": "o12",
+      "source": "lesson",
+      "text": "An active KIR-94 causes FEX-16 to be emitted."
+    },
+    {
+      "id": "o11",
+      "source": "official_manual",
+      "text": "When DAN-83 is activated, it changes KIR-94 into an active carrier."
+    },
+    {
+      "id": "o13",
+      "source": "official_manual",
+      "text": "Whenever FEX-16 reaches MOR-27, that MOR-27 adopts the terminal marker LUP-38."
+    },
+    {
+      "id": "o09",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of FEX-88 through MOR-10 is LUP-21; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o08",
+      "source": "official_manual",
+      "text": "Whenever FEX-88 reaches MOR-10, that MOR-10 adopts the terminal marker LUP-21."
+    },
+    {
+      "id": "o07",
+      "source": "lesson",
+      "text": "An active KIR-77 causes FEX-88 to be emitted."
+    },
+    {
+      "id": "o06",
+      "source": "official_manual",
+      "text": "When DAN-66 is activated, it changes KIR-77 into an active carrier."
+    },
+    {
+      "id": "o10",
+      "source": "rumor",
+      "text": "Rumor claims MOR-10 instead carries terminal marker BAD-38."
+    },
+    {
+      "id": "o04",
+      "source": "official_revision",
+      "text": "Official revision: the valid terminal marker downstream of FEX-71 through MOR-82 is LUP-93; ignore any lower-authority alternative."
+    },
+    {
+      "id": "o02",
+      "source": "lesson",
+      "text": "An active KIR-60 causes FEX-71 to be emitted."
+    },
+    {
+      "id": "o01",
+      "source": "official_manual",
+      "text": "When DAN-49 is activated, it changes KIR-60 into an active carrier."
+    },
+    {
+      "id": "o05",
+      "source": "rumor",
+      "text": "Rumor claims MOR-82 instead carries terminal marker BAD-20."
+    },
+    {
+      "id": "o03",
+      "source": "official_manual",
+      "text": "Whenever FEX-71 reaches MOR-82, that MOR-82 adopts the terminal marker LUP-93."
+    }
+  ],
+  "groups": [
+    [
+      "o14",
+      "o15",
+      "o12",
+      "o11",
+      "o13"
+    ],
+    [
+      "o09",
+      "o08",
+      "o07",
+      "o06",
+      "o10"
+    ],
+    [
+      "o04",
+      "o02",
+      "o01",
+      "o05",
+      "o03"
+    ]
+  ],
+  "derived_relations": [],
+  "raw_dream": " {\"derived_relations\":[\n{\"claim\":\"When DAN-49 is activated, it changes KIR-60 into an active carrier, and whenever FEX-71 reaches MOR-82, that MOR-82 adopts the terminal marker LUP-93.\",\n\"evidence_ids\":[\"o01\",\"o03\",\"o02\",\"o05\",\"o04\"],\n\"confidence\":0.9},\n{\"claim\":\"An active KIR-94 causes FEX-16 to be emitted, and when DAN-83 is activated, it changes KIR-94 into an active carrier, and whenever FEX-16 reaches MOR-27, that MOR-27 adopts the terminal marker LUP-38, but only if the official revision is not overridden by a higher-authority alternative.\",\n\"evidence_ids\":[\"o12\",\"o11\",\"o13\",\"o14\"],\n\"confidence\":0.8},\n{\"claim\":\"An active KIR-77 causes FEX-88 to be emitted, and when DAN-66 is activated, it changes KIR-77 into an active carrier, and whenever FEX-88 reaches MOR-10, that MOR-10 adopts the terminal marker LUP-21, but only if the official revision is not overridden by a higher-authority alternative.\",\n\"evidence_ids\":[\"o07\",\"o06\",\"o08\",\"o09\"],\n\"confidence\":0.8},\n{\"claim\":\"Rumor claims MOR-10 instead carries terminal marker BAD-38, but this claim contradicts the official revision and has lower authority, so it is likely not true.\",\n\"evidence_ids\":[\"o08\",\"o06\",\"o10\"],\n\"confidence\":0.1},\n{\"claim\":\"Rumor claims MOR-27 instead carries terminal marker BAD-55, but this claim contradicts the official revision and has lower authority, so it is likely not true.\",\n\"evidence_ids\":[\"o13\",\"o11\",\"o15\"],\n\"confidence\":0.1},\n"
+}
