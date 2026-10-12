@@ -1,0 +1,194 @@
+{
+  "id": "syn04",
+  "name": "Synthetic Curiosity World 04",
+  "world_seed": 704,
+  "observations": [
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-99 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-99 stage 1, QAV-41 changes into MEX-52."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-99 stage 2, MEX-52 changes into TUL-63."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-99 stage 4, PIM-74 changes into terminal marker RUK-85."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-22 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 1, QAV-64 changes into MEX-75."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-22 stage 2, MEX-75 changes into TUL-86."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 4, PIM-97 changes into terminal marker RUK-18."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-35 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 1, QAV-87 changes into MEX-98."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-35 stage 2, MEX-98 changes into TUL-19."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 4, PIM-30 changes into terminal marker RUK-41."
+    }
+  ],
+  "candidate_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-99: TUL-63 changes into PIM-74."
+    },
+    {
+      "id": "r01",
+      "source": "rumor",
+      "text": "Rumor about PRC-99 stage 3: TUL-63 changes into BAD-11."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-22: TUL-86 changes into PIM-97."
+    },
+    {
+      "id": "r02",
+      "source": "rumor",
+      "text": "Rumor about PRC-22 stage 3: TUL-86 changes into BAD-34."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-35: TUL-19 changes into PIM-30."
+    },
+    {
+      "id": "r03",
+      "source": "rumor",
+      "text": "Rumor about PRC-35 stage 3: TUL-19 changes into BAD-57."
+    },
+    {
+      "id": "d01",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-19: stage 3 maps VEX-45 into NAL-55."
+    },
+    {
+      "id": "d02",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-26: stage 3 maps VEX-54 into NAL-66."
+    },
+    {
+      "id": "d03",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-33: stage 3 maps VEX-63 into NAL-77."
+    },
+    {
+      "id": "d04",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-40: stage 3 maps VEX-72 into NAL-88."
+    },
+    {
+      "id": "d05",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-47: stage 3 maps VEX-81 into NAL-99."
+    },
+    {
+      "id": "d06",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-54: stage 3 maps VEX-90 into NAL-20."
+    },
+    {
+      "id": "d07",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-61: stage 3 maps VEX-99 into NAL-31."
+    },
+    {
+      "id": "d08",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-68: stage 3 maps VEX-18 into NAL-42."
+    },
+    {
+      "id": "d09",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-75: stage 3 maps VEX-27 into NAL-53."
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "question": "Starting from QAV-41, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "QAV-41",
+      "expected_symbol": "RUK-85",
+      "process": "PRC-99",
+      "gap_from": "TUL-63",
+      "gap_to": "PIM-74",
+      "correct_document_id": "c01",
+      "initial_observation_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "o1d"
+      ]
+    },
+    {
+      "id": "q2",
+      "question": "Starting from QAV-64, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "QAV-64",
+      "expected_symbol": "RUK-18",
+      "process": "PRC-22",
+      "gap_from": "TUL-86",
+      "gap_to": "PIM-97",
+      "correct_document_id": "c02",
+      "initial_observation_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "o2d"
+      ]
+    },
+    {
+      "id": "q3",
+      "question": "Starting from QAV-87, what opaque terminal marker is ultimately reached after completing the learned four-stage process?",
+      "start_symbol": "QAV-87",
+      "expected_symbol": "RUK-41",
+      "process": "PRC-35",
+      "gap_from": "TUL-19",
+      "gap_to": "PIM-30",
+      "correct_document_id": "c03",
+      "initial_observation_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "o3d"
+      ]
+    }
+  ]
+}

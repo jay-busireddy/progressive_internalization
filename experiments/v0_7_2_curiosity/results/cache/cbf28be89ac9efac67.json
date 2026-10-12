@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-99 stage 2, MEX-52 changes into TUL-63."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-99 stage 1, QAV-41 changes into MEX-52."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-99 stage 4, PIM-74 changes into terminal marker RUK-85."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-99 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 1, QAV-87 changes into MEX-98."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-35 stage 2, MEX-98 changes into TUL-19."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-35 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 4, PIM-30 changes into terminal marker RUK-41."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-22 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-22 stage 2, MEX-75 changes into TUL-86."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 1, QAV-64 changes into MEX-75."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-22 stage 4, PIM-97 changes into terminal marker RUK-18."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-99: TUL-63 changes into PIM-74."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-22: TUL-86 changes into PIM-97."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-35: TUL-19 changes into PIM-30."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-22",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-22",
+          "stage": 1,
+          "from_symbol": "QAV-64",
+          "to_symbol": "MEX-75",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-22",
+          "stage": 2,
+          "from_symbol": "MEX-75",
+          "to_symbol": "TUL-86",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-22",
+          "stage": 3,
+          "from_symbol": "TUL-86",
+          "to_symbol": "PIM-97",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-22",
+          "stage": 4,
+          "from_symbol": "PIM-97",
+          "to_symbol": "RUK-18",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-35",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-35",
+          "stage": 1,
+          "from_symbol": "QAV-87",
+          "to_symbol": "MEX-98",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-35",
+          "stage": 2,
+          "from_symbol": "MEX-98",
+          "to_symbol": "TUL-19",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-35",
+          "stage": 3,
+          "from_symbol": "TUL-19",
+          "to_symbol": "PIM-30",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-35",
+          "stage": 4,
+          "from_symbol": "PIM-30",
+          "to_symbol": "RUK-41",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-99",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-99",
+          "stage": 1,
+          "from_symbol": "QAV-41",
+          "to_symbol": "MEX-52",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-99",
+          "stage": 2,
+          "from_symbol": "MEX-52",
+          "to_symbol": "TUL-63",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-99",
+          "stage": 3,
+          "from_symbol": "TUL-63",
+          "to_symbol": "PIM-74",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-99",
+          "stage": 4,
+          "from_symbol": "PIM-74",
+          "to_symbol": "RUK-85",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-22",
+      "missing_stage": 3,
+      "from_symbol": "TUL-86",
+      "to_symbol": "PIM-97",
+      "document_id": "c02"
+    },
+    {
+      "process": "PRC-35",
+      "missing_stage": 3,
+      "from_symbol": "TUL-19",
+      "to_symbol": "PIM-30",
+      "document_id": "c03"
+    },
+    {
+      "process": "PRC-99",
+      "missing_stage": 3,
+      "from_symbol": "TUL-63",
+      "to_symbol": "PIM-74",
+      "document_id": "c01"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-22",
+      "from_symbol": "QAV-64",
+      "to_symbol": "RUK-18",
+      "claim": "In PRC-22, starting from QAV-64 ultimately reaches RUK-18.",
+      "text": "In PRC-22, starting from QAV-64 ultimately reaches RUK-18.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-35",
+      "from_symbol": "QAV-87",
+      "to_symbol": "RUK-41",
+      "claim": "In PRC-35, starting from QAV-87 ultimately reaches RUK-41.",
+      "text": "In PRC-35, starting from QAV-87 ultimately reaches RUK-41.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-99",
+      "from_symbol": "QAV-41",
+      "to_symbol": "RUK-85",
+      "claim": "In PRC-99, starting from QAV-41 ultimately reaches RUK-85.",
+      "text": "In PRC-99, starting from QAV-41 ultimately reaches RUK-85.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-22\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-86\",\n      \"to_symbol\": \"PIM-97\",\n      \"document_id\": \"c02\"\n    },\n    {\n      \"process\": \"PRC-35\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-19\",\n      \"to_symbol\": \"PIM-30\",\n      \"document_id\": \"c03\"\n    },\n    {\n      \"process\": \"PRC-99\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-63\",\n      \"to_symbol\": \"PIM-74\",\n      \"document_id\": \"c01\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-22\",\n      \"from_symbol\": \"QAV-64\",\n      \"to_symbol\": \"RUK-18\",\n      \"claim\": \"In PRC-22, starting from QAV-64 ultimately reaches RUK-18.\",\n      \"text\": \"In PRC-22, starting from QAV-64 ultimately reaches RUK-18.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-35\",\n      \"from_symbol\": \"QAV-87\",\n      \"to_symbol\": \"RUK-41\",\n      \"claim\": \"In PRC-35, starting from QAV-87 ultimately reaches RUK-41.\",\n      \"text\": \"In PRC-35, starting from QAV-87 ultimately reaches RUK-41.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-99\",\n      \"from_symbol\": \"QAV-41\",\n      \"to_symbol\": \"RUK-85\",\n      \"claim\": \"In PRC-99, starting from QAV-41 ultimately reaches RUK-85.\",\n      \"text\": \"In PRC-99, starting from QAV-41 ultimately reaches RUK-85.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

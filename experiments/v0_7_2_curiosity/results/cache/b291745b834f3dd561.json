@@ -1,0 +1,248 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-47 stage 1, QAV-75 changes into MEX-86."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-47 stage 2, MEX-86 changes into TUL-97."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-47 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-47 stage 4, PIM-18 changes into terminal marker RUK-29."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-60 stage 1, QAV-28 changes into MEX-39."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-60 stage 2, MEX-39 changes into TUL-50."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-60 stage 4, PIM-61 changes into terminal marker RUK-72."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-60 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-73 stage 4, PIM-84 changes into terminal marker RUK-95."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-73 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-73 stage 1, QAV-51 changes into MEX-62."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-73 stage 2, MEX-62 changes into TUL-73."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-73: TUL-73 changes into PIM-84."
+    },
+    {
+      "id": "d06",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-10: stage 3 maps VEX-58 into NAL-82."
+    },
+    {
+      "id": "r01",
+      "source": "rumor",
+      "text": "Rumor about PRC-47 stage 3: TUL-97 changes into BAD-45."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-47",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-47",
+          "stage": 1,
+          "from_symbol": "QAV-75",
+          "to_symbol": "MEX-86",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-47",
+          "stage": 2,
+          "from_symbol": "MEX-86",
+          "to_symbol": "TUL-97",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-47",
+          "stage": 3,
+          "from_symbol": "TUL-97",
+          "to_symbol": "BAD-45",
+          "evidence_id": "r01",
+          "source": "rumor",
+          "authority": 1
+        },
+        {
+          "process": "PRC-47",
+          "stage": 4,
+          "from_symbol": "PIM-18",
+          "to_symbol": "RUK-29",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-60",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-60",
+          "stage": 1,
+          "from_symbol": "QAV-28",
+          "to_symbol": "MEX-39",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-60",
+          "stage": 2,
+          "from_symbol": "MEX-39",
+          "to_symbol": "TUL-50",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-60",
+          "stage": 4,
+          "from_symbol": "PIM-61",
+          "to_symbol": "RUK-72",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-73",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-73",
+          "stage": 1,
+          "from_symbol": "QAV-51",
+          "to_symbol": "MEX-62",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-73",
+          "stage": 2,
+          "from_symbol": "MEX-62",
+          "to_symbol": "TUL-73",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-73",
+          "stage": 3,
+          "from_symbol": "TUL-73",
+          "to_symbol": "PIM-84",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-73",
+          "stage": 4,
+          "from_symbol": "PIM-84",
+          "to_symbol": "RUK-95",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-73",
+      "missing_stage": 3,
+      "from_symbol": "TUL-73",
+      "to_symbol": "PIM-84",
+      "document_id": "c03"
+    }
+  ],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-60",
+      "missing_stage": 3,
+      "from_symbol": "TUL-50",
+      "to_symbol": "PIM-61",
+      "evidence_ids": [
+        "o2a",
+        "o2c",
+        "o2d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-60 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-73",
+      "from_symbol": "QAV-51",
+      "to_symbol": "RUK-95",
+      "claim": "In PRC-73, starting from QAV-51 ultimately reaches RUK-95.",
+      "text": "In PRC-73, starting from QAV-51 ultimately reaches RUK-95.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-73\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-73\",\n      \"to_symbol\": \"PIM-84\",\n      \"document_id\": \"c03\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-73\",\n      \"from_symbol\": \"QAV-51\",\n      \"to_symbol\": \"RUK-95\",\n      \"claim\": \"In PRC-73, starting from QAV-51 ultimately reaches RUK-95.\",\n      \"text\": \"In PRC-73, starting from QAV-51 ultimately reaches RUK-95.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-60\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-50\",\n      \"to_symbol\": \"PIM-61\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2c\",\n        \"o2d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-60 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

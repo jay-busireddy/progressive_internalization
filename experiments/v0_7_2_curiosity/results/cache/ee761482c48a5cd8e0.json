@@ -1,0 +1,15 @@
+{
+  "selected": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-42: TUL-82 changes into PIM-93."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-55: TUL-15 changes into PIM-26."
+    }
+  ],
+  "raw": " {\"document_ids\":[\"c01\",\"c02\"]}"
+}

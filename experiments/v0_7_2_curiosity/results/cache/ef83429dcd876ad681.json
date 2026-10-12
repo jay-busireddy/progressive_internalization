@@ -1,0 +1,4 @@
+{
+  "selected": [],
+  "raw": " {\"document_ids\":[\"c01\",\"c02\",\"c03\"]}\n\nExplanation:\nThe goal is to improve the coherence and completeness of the current world model. The current model lacks information about the stage 3 transitions for PRC-28, PRC-41, and PRC-54. The official revisions (c01, c02, c03) provide the most authoritative information about these transitions, as they are directly related to the current model and have a higher authority level than the rumors. Therefore, these documents are the most useful for improving the current world model."
+}

@@ -1,0 +1,232 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-74 stage 2, MEX-41 changes into TUL-52."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-74 stage 4, PIM-63 changes into terminal marker RUK-74."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-74 stage 1, QAV-30 changes into MEX-41."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-74 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-61 stage 2, MEX-88 changes into TUL-99."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-61 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-61 stage 1, QAV-77 changes into MEX-88."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-61 stage 4, PIM-20 changes into terminal marker RUK-31."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-87 stage 2, MEX-64 changes into TUL-75."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-87 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-87 stage 1, QAV-53 changes into MEX-64."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-87 stage 4, PIM-86 changes into terminal marker RUK-97."
+    }
+  ],
+  "groups": [
+    [
+      "o2c",
+      "o2d",
+      "o2b",
+      "o2a"
+    ],
+    [
+      "o1c",
+      "o1a",
+      "o1b",
+      "o1d"
+    ],
+    [
+      "o3c",
+      "o3a",
+      "o3b",
+      "o3d"
+    ]
+  ],
+  "process_models": [
+    {
+      "process": "PRC-61",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-61",
+          "stage": 1,
+          "from_symbol": "QAV-77",
+          "to_symbol": "MEX-88",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-61",
+          "stage": 2,
+          "from_symbol": "MEX-88",
+          "to_symbol": "TUL-99",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-61",
+          "stage": 4,
+          "from_symbol": "PIM-20",
+          "to_symbol": "RUK-31",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-74",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-74",
+          "stage": 1,
+          "from_symbol": "QAV-30",
+          "to_symbol": "MEX-41",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-74",
+          "stage": 2,
+          "from_symbol": "MEX-41",
+          "to_symbol": "TUL-52",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-74",
+          "stage": 4,
+          "from_symbol": "PIM-63",
+          "to_symbol": "RUK-74",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-87",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-87",
+          "stage": 1,
+          "from_symbol": "QAV-53",
+          "to_symbol": "MEX-64",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-87",
+          "stage": 2,
+          "from_symbol": "MEX-64",
+          "to_symbol": "TUL-75",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-87",
+          "stage": 4,
+          "from_symbol": "PIM-86",
+          "to_symbol": "RUK-97",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "derived_relations": [],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-61",
+      "missing_stage": 3,
+      "from_symbol": "TUL-99",
+      "to_symbol": "PIM-20",
+      "evidence_ids": [
+        "o1a",
+        "o1c",
+        "o1d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-61 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-74",
+      "missing_stage": 3,
+      "from_symbol": "TUL-52",
+      "to_symbol": "PIM-63",
+      "evidence_ids": [
+        "o2a",
+        "o2c",
+        "o2d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-74 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-87",
+      "missing_stage": 3,
+      "from_symbol": "TUL-75",
+      "to_symbol": "PIM-86",
+      "evidence_ids": [
+        "o3a",
+        "o3c",
+        "o3d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-87 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "raw_gap_state": "{\n  \"process_models\": [\n    {\n      \"process\": \"PRC-61\",\n      \"expected_stages\": 4,\n      \"declaration_id\": \"o1a\",\n      \"known_steps\": [\n        {\n          \"process\": \"PRC-61\",\n          \"stage\": 1,\n          \"from_symbol\": \"QAV-77\",\n          \"to_symbol\": \"MEX-88\",\n          \"evidence_id\": \"o1b\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        },\n        {\n          \"process\": \"PRC-61\",\n          \"stage\": 2,\n          \"from_symbol\": \"MEX-88\",\n          \"to_symbol\": \"TUL-99\",\n          \"evidence_id\": \"o1c\",\n          \"source\": \"lesson\",\n          \"authority\": 4\n        },\n        {\n          \"process\": \"PRC-61\",\n          \"stage\": 4,\n          \"from_symbol\": \"PIM-20\",\n          \"to_symbol\": \"RUK-31\",\n          \"evidence_id\": \"o1d\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        }\n      ]\n    },\n    {\n      \"process\": \"PRC-74\",\n      \"expected_stages\": 4,\n      \"declaration_id\": \"o2a\",\n      \"known_steps\": [\n        {\n          \"process\": \"PRC-74\",\n          \"stage\": 1,\n          \"from_symbol\": \"QAV-30\",\n          \"to_symbol\": \"MEX-41\",\n          \"evidence_id\": \"o2b\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        },\n        {\n          \"process\": \"PRC-74\",\n          \"stage\": 2,\n          \"from_symbol\": \"MEX-41\",\n          \"to_symbol\": \"TUL-52\",\n          \"evidence_id\": \"o2c\",\n          \"source\": \"lesson\",\n          \"authority\": 4\n        },\n        {\n          \"process\": \"PRC-74\",\n          \"stage\": 4,\n          \"from_symbol\": \"PIM-63\",\n          \"to_symbol\": \"RUK-74\",\n          \"evidence_id\": \"o2d\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        }\n      ]\n    },\n    {\n      \"process\": \"PRC-87\",\n      \"expected_stages\": 4,\n      \"declaration_id\": \"o3a\",\n      \"known_steps\": [\n        {\n          \"process\": \"PRC-87\",\n          \"stage\": 1,\n          \"from_symbol\": \"QAV-53\",\n          \"to_symbol\": \"MEX-64\",\n          \"evidence_id\": \"o3b\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        },\n        {\n          \"process\": \"PRC-87\",\n          \"stage\": 2,\n          \"from_symbol\": \"MEX-64\",\n          \"to_symbol\": \"TUL-75\",\n          \"evidence_id\": \"o3c\",\n          \"source\": \"lesson\",\n          \"authority\": 4\n        },\n        {\n          \"process\": \"PRC-87\",\n          \"stage\": 4,\n          \"from_symbol\": \"PIM-86\",\n          \"to_symbol\": \"RUK-97\",\n          \"evidence_id\": \"o3d\",\n          \"source\": \"official_manual\",\n          \"authority\": 5\n        }\n      ]\n    }\n  ],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-61\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-99\",\n      \"to_symbol\": \"PIM-20\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1c\",\n        \"o1d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-61 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-74\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-52\",\n      \"to_symbol\": \"PIM-63\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2c\",\n        \"o2d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-74 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-87\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TUL-75\",\n      \"to_symbol\": \"PIM-86\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3c\",\n        \"o3d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-87 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "gap_detection_mode": "deterministic_structural_graph"
+}
