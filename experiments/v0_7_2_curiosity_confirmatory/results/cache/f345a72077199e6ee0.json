@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-20 stage 2, ZUM-64 changes into RAV-31."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-20 stage 4, BIR-56 changes into terminal marker NIX-62."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-20 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-20 stage 1, BIR-38 changes into ZUM-64."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-80 stage 1, WIR-64 changes into XAN-46."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-80 stage 4, CYN-80 changes into terminal marker VOR-14."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-80 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-80 stage 2, XAN-46 changes into GOL-51."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-34 stage 2, FAR-59 changes into NIX-55."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-34 stage 1, BEX-85 changes into FAR-59."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-34 stage 4, ZUM-95 changes into terminal marker RAV-81."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-34 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-20: RAV-31 changes into BIR-56."
+    },
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-34: NIX-55 changes into ZUM-95."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-80: GOL-51 changes into CYN-80."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-20",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-20",
+          "stage": 1,
+          "from_symbol": "BIR-38",
+          "to_symbol": "ZUM-64",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-20",
+          "stage": 2,
+          "from_symbol": "ZUM-64",
+          "to_symbol": "RAV-31",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-20",
+          "stage": 3,
+          "from_symbol": "RAV-31",
+          "to_symbol": "BIR-56",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-20",
+          "stage": 4,
+          "from_symbol": "BIR-56",
+          "to_symbol": "NIX-62",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-34",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-34",
+          "stage": 1,
+          "from_symbol": "BEX-85",
+          "to_symbol": "FAR-59",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-34",
+          "stage": 2,
+          "from_symbol": "FAR-59",
+          "to_symbol": "NIX-55",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-34",
+          "stage": 3,
+          "from_symbol": "NIX-55",
+          "to_symbol": "ZUM-95",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-34",
+          "stage": 4,
+          "from_symbol": "ZUM-95",
+          "to_symbol": "RAV-81",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-80",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-80",
+          "stage": 1,
+          "from_symbol": "WIR-64",
+          "to_symbol": "XAN-46",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-80",
+          "stage": 2,
+          "from_symbol": "XAN-46",
+          "to_symbol": "GOL-51",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-80",
+          "stage": 3,
+          "from_symbol": "GOL-51",
+          "to_symbol": "CYN-80",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-80",
+          "stage": 4,
+          "from_symbol": "CYN-80",
+          "to_symbol": "VOR-14",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-20",
+      "missing_stage": 3,
+      "from_symbol": "RAV-31",
+      "to_symbol": "BIR-56",
+      "document_id": "c02"
+    },
+    {
+      "process": "PRC-34",
+      "missing_stage": 3,
+      "from_symbol": "NIX-55",
+      "to_symbol": "ZUM-95",
+      "document_id": "c01"
+    },
+    {
+      "process": "PRC-80",
+      "missing_stage": 3,
+      "from_symbol": "GOL-51",
+      "to_symbol": "CYN-80",
+      "document_id": "c03"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-20",
+      "from_symbol": "BIR-38",
+      "to_symbol": "NIX-62",
+      "claim": "In PRC-20, starting from BIR-38 ultimately reaches NIX-62.",
+      "text": "In PRC-20, starting from BIR-38 ultimately reaches NIX-62.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-34",
+      "from_symbol": "BEX-85",
+      "to_symbol": "RAV-81",
+      "claim": "In PRC-34, starting from BEX-85 ultimately reaches RAV-81.",
+      "text": "In PRC-34, starting from BEX-85 ultimately reaches RAV-81.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-80",
+      "from_symbol": "WIR-64",
+      "to_symbol": "VOR-14",
+      "claim": "In PRC-80, starting from WIR-64 ultimately reaches VOR-14.",
+      "text": "In PRC-80, starting from WIR-64 ultimately reaches VOR-14.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-20\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"RAV-31\",\n      \"to_symbol\": \"BIR-56\",\n      \"document_id\": \"c02\"\n    },\n    {\n      \"process\": \"PRC-34\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"NIX-55\",\n      \"to_symbol\": \"ZUM-95\",\n      \"document_id\": \"c01\"\n    },\n    {\n      \"process\": \"PRC-80\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"GOL-51\",\n      \"to_symbol\": \"CYN-80\",\n      \"document_id\": \"c03\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-20\",\n      \"from_symbol\": \"BIR-38\",\n      \"to_symbol\": \"NIX-62\",\n      \"claim\": \"In PRC-20, starting from BIR-38 ultimately reaches NIX-62.\",\n      \"text\": \"In PRC-20, starting from BIR-38 ultimately reaches NIX-62.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-34\",\n      \"from_symbol\": \"BEX-85\",\n      \"to_symbol\": \"RAV-81\",\n      \"claim\": \"In PRC-34, starting from BEX-85 ultimately reaches RAV-81.\",\n      \"text\": \"In PRC-34, starting from BEX-85 ultimately reaches RAV-81.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-80\",\n      \"from_symbol\": \"WIR-64\",\n      \"to_symbol\": \"VOR-14\",\n      \"claim\": \"In PRC-80, starting from WIR-64 ultimately reaches VOR-14.\",\n      \"text\": \"In PRC-80, starting from WIR-64 ultimately reaches VOR-14.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

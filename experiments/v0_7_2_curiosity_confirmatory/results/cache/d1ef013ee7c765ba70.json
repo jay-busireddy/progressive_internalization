@@ -1,0 +1,230 @@
+{
+  "selected_memories": [
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-32 stage 2, FAR-27 changes into CYN-61."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-32 stage 4, LUM-53 changes into terminal marker RAV-85."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-32 stage 1, MUR-22 changes into FAR-27."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-32 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-59 stage 1, RAV-45 changes into CYN-60."
+    },
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-59 stage 4, BIR-19 changes into terminal marker ZIR-92."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-59 stage 2, CYN-60 changes into NIX-11."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-59 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-46 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-46 stage 4, ZIR-52 changes into terminal marker LUM-77."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-46 stage 2, SIV-14 changes into HAP-19."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-46 stage 1, WAM-50 changes into SIV-14."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "d09",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-17: stage 3 maps JOT-46 into CYN-71."
+    },
+    {
+      "id": "d03",
+      "source": "official_manual",
+      "text": "Unrelated document for ALT-89: stage 3 maps PEL-24 into LOQ-95."
+    },
+    {
+      "id": "d12",
+      "source": "field_note",
+      "text": "Unrelated document for ALT-26: stage 3 maps BIR-50 into TEK-86."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-32",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-32",
+          "stage": 1,
+          "from_symbol": "MUR-22",
+          "to_symbol": "FAR-27",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-32",
+          "stage": 2,
+          "from_symbol": "FAR-27",
+          "to_symbol": "CYN-61",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-32",
+          "stage": 4,
+          "from_symbol": "LUM-53",
+          "to_symbol": "RAV-85",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-46",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-46",
+          "stage": 1,
+          "from_symbol": "WAM-50",
+          "to_symbol": "SIV-14",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-46",
+          "stage": 2,
+          "from_symbol": "SIV-14",
+          "to_symbol": "HAP-19",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-46",
+          "stage": 4,
+          "from_symbol": "ZIR-52",
+          "to_symbol": "LUM-77",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-59",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-59",
+          "stage": 1,
+          "from_symbol": "RAV-45",
+          "to_symbol": "CYN-60",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-59",
+          "stage": 2,
+          "from_symbol": "CYN-60",
+          "to_symbol": "NIX-11",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-59",
+          "stage": 4,
+          "from_symbol": "BIR-19",
+          "to_symbol": "ZIR-92",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [],
+  "unresolved_gaps": [
+    {
+      "process": "PRC-32",
+      "missing_stage": 3,
+      "from_symbol": "CYN-61",
+      "to_symbol": "LUM-53",
+      "evidence_ids": [
+        "o1a",
+        "o1c",
+        "o1d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-32 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-46",
+      "missing_stage": 3,
+      "from_symbol": "HAP-19",
+      "to_symbol": "ZIR-52",
+      "evidence_ids": [
+        "o3a",
+        "o3c",
+        "o3d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-46 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    },
+    {
+      "process": "PRC-59",
+      "missing_stage": 3,
+      "from_symbol": "NIX-11",
+      "to_symbol": "BIR-19",
+      "evidence_ids": [
+        "o2a",
+        "o2c",
+        "o2d"
+      ],
+      "confidence": 0.95,
+      "reason": "PRC-59 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4."
+    }
+  ],
+  "derived_relations": [],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [],\n  \"derived_relations\": [],\n  \"unresolved_gaps\": [\n    {\n      \"process\": \"PRC-32\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"CYN-61\",\n      \"to_symbol\": \"LUM-53\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1c\",\n        \"o1d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-32 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-46\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"HAP-19\",\n      \"to_symbol\": \"ZIR-52\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3c\",\n        \"o3d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-46 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    },\n    {\n      \"process\": \"PRC-59\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"NIX-11\",\n      \"to_symbol\": \"BIR-19\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2c\",\n        \"o2d\"\n      ],\n      \"confidence\": 0.95,\n      \"reason\": \"PRC-59 declares 4 ordered stages; stage 3 is absent between supported stages 2 and 4.\"\n    }\n  ]\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}

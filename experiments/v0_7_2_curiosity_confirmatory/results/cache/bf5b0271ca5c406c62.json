@@ -1,0 +1,291 @@
+{
+  "selected_memories": [
+    {
+      "id": "o2d",
+      "source": "official_manual",
+      "text": "In PRC-64 stage 4, GOL-31 changes into terminal marker PEL-29."
+    },
+    {
+      "id": "o2b",
+      "source": "official_manual",
+      "text": "In PRC-64 stage 1, WIR-51 changes into JOT-98."
+    },
+    {
+      "id": "o2a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-64 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o2c",
+      "source": "lesson",
+      "text": "In PRC-64 stage 2, JOT-98 changes into NIX-30."
+    },
+    {
+      "id": "o3a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-35 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o3d",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 4, JOT-60 changes into terminal marker KEL-64."
+    },
+    {
+      "id": "o3b",
+      "source": "official_manual",
+      "text": "In PRC-35 stage 1, WAM-14 changes into ZUM-82."
+    },
+    {
+      "id": "o3c",
+      "source": "lesson",
+      "text": "In PRC-35 stage 2, ZUM-82 changes into BIR-70."
+    },
+    {
+      "id": "o1a",
+      "source": "official_manual",
+      "text": "Official manual: PRC-30 contains exactly four ordered transitions, stages 1 through 4; each stage output becomes the next stage input."
+    },
+    {
+      "id": "o1d",
+      "source": "official_manual",
+      "text": "In PRC-30 stage 4, VOR-17 changes into terminal marker WIR-46."
+    },
+    {
+      "id": "o1b",
+      "source": "official_manual",
+      "text": "In PRC-30 stage 1, WIR-36 changes into BEX-55."
+    },
+    {
+      "id": "o1c",
+      "source": "lesson",
+      "text": "In PRC-30 stage 2, BEX-55 changes into TEK-62."
+    }
+  ],
+  "selected_documents": [
+    {
+      "id": "c01",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-30: TEK-62 changes into VOR-17."
+    },
+    {
+      "id": "c03",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-35: BIR-70 changes into JOT-60."
+    },
+    {
+      "id": "c02",
+      "source": "official_revision",
+      "text": "Official stage-3 revision for PRC-64: NIX-30 changes into GOL-31."
+    }
+  ],
+  "process_models": [
+    {
+      "process": "PRC-30",
+      "expected_stages": 4,
+      "declaration_id": "o1a",
+      "known_steps": [
+        {
+          "process": "PRC-30",
+          "stage": 1,
+          "from_symbol": "WIR-36",
+          "to_symbol": "BEX-55",
+          "evidence_id": "o1b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-30",
+          "stage": 2,
+          "from_symbol": "BEX-55",
+          "to_symbol": "TEK-62",
+          "evidence_id": "o1c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-30",
+          "stage": 3,
+          "from_symbol": "TEK-62",
+          "to_symbol": "VOR-17",
+          "evidence_id": "c01",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-30",
+          "stage": 4,
+          "from_symbol": "VOR-17",
+          "to_symbol": "WIR-46",
+          "evidence_id": "o1d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-35",
+      "expected_stages": 4,
+      "declaration_id": "o3a",
+      "known_steps": [
+        {
+          "process": "PRC-35",
+          "stage": 1,
+          "from_symbol": "WAM-14",
+          "to_symbol": "ZUM-82",
+          "evidence_id": "o3b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-35",
+          "stage": 2,
+          "from_symbol": "ZUM-82",
+          "to_symbol": "BIR-70",
+          "evidence_id": "o3c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-35",
+          "stage": 3,
+          "from_symbol": "BIR-70",
+          "to_symbol": "JOT-60",
+          "evidence_id": "c03",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-35",
+          "stage": 4,
+          "from_symbol": "JOT-60",
+          "to_symbol": "KEL-64",
+          "evidence_id": "o3d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    },
+    {
+      "process": "PRC-64",
+      "expected_stages": 4,
+      "declaration_id": "o2a",
+      "known_steps": [
+        {
+          "process": "PRC-64",
+          "stage": 1,
+          "from_symbol": "WIR-51",
+          "to_symbol": "JOT-98",
+          "evidence_id": "o2b",
+          "source": "official_manual",
+          "authority": 5
+        },
+        {
+          "process": "PRC-64",
+          "stage": 2,
+          "from_symbol": "JOT-98",
+          "to_symbol": "NIX-30",
+          "evidence_id": "o2c",
+          "source": "lesson",
+          "authority": 4
+        },
+        {
+          "process": "PRC-64",
+          "stage": 3,
+          "from_symbol": "NIX-30",
+          "to_symbol": "GOL-31",
+          "evidence_id": "c02",
+          "source": "official_revision",
+          "authority": 6
+        },
+        {
+          "process": "PRC-64",
+          "stage": 4,
+          "from_symbol": "GOL-31",
+          "to_symbol": "PEL-29",
+          "evidence_id": "o2d",
+          "source": "official_manual",
+          "authority": 5
+        }
+      ]
+    }
+  ],
+  "resolved_gaps": [
+    {
+      "process": "PRC-30",
+      "missing_stage": 3,
+      "from_symbol": "TEK-62",
+      "to_symbol": "VOR-17",
+      "document_id": "c01"
+    },
+    {
+      "process": "PRC-35",
+      "missing_stage": 3,
+      "from_symbol": "BIR-70",
+      "to_symbol": "JOT-60",
+      "document_id": "c03"
+    },
+    {
+      "process": "PRC-64",
+      "missing_stage": 3,
+      "from_symbol": "NIX-30",
+      "to_symbol": "GOL-31",
+      "document_id": "c02"
+    }
+  ],
+  "unresolved_gaps": [],
+  "derived_relations": [
+    {
+      "id": "dr01",
+      "process": "PRC-30",
+      "from_symbol": "WIR-36",
+      "to_symbol": "WIR-46",
+      "claim": "In PRC-30, starting from WIR-36 ultimately reaches WIR-46.",
+      "text": "In PRC-30, starting from WIR-36 ultimately reaches WIR-46.",
+      "evidence_ids": [
+        "o1a",
+        "o1b",
+        "o1c",
+        "c01",
+        "o1d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr02",
+      "process": "PRC-35",
+      "from_symbol": "WAM-14",
+      "to_symbol": "KEL-64",
+      "claim": "In PRC-35, starting from WAM-14 ultimately reaches KEL-64.",
+      "text": "In PRC-35, starting from WAM-14 ultimately reaches KEL-64.",
+      "evidence_ids": [
+        "o3a",
+        "o3b",
+        "o3c",
+        "c03",
+        "o3d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    },
+    {
+      "id": "dr03",
+      "process": "PRC-64",
+      "from_symbol": "WIR-51",
+      "to_symbol": "PEL-29",
+      "claim": "In PRC-64, starting from WIR-51 ultimately reaches PEL-29.",
+      "text": "In PRC-64, starting from WIR-51 ultimately reaches PEL-29.",
+      "evidence_ids": [
+        "o2a",
+        "o2b",
+        "o2c",
+        "c02",
+        "o2d"
+      ],
+      "status": "derived",
+      "derivation": "deterministic_stage_composition"
+    }
+  ],
+  "raw_post_dream": "{\n  \"resolved_gaps\": [\n    {\n      \"process\": \"PRC-30\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"TEK-62\",\n      \"to_symbol\": \"VOR-17\",\n      \"document_id\": \"c01\"\n    },\n    {\n      \"process\": \"PRC-35\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"BIR-70\",\n      \"to_symbol\": \"JOT-60\",\n      \"document_id\": \"c03\"\n    },\n    {\n      \"process\": \"PRC-64\",\n      \"missing_stage\": 3,\n      \"from_symbol\": \"NIX-30\",\n      \"to_symbol\": \"GOL-31\",\n      \"document_id\": \"c02\"\n    }\n  ],\n  \"derived_relations\": [\n    {\n      \"id\": \"dr01\",\n      \"process\": \"PRC-30\",\n      \"from_symbol\": \"WIR-36\",\n      \"to_symbol\": \"WIR-46\",\n      \"claim\": \"In PRC-30, starting from WIR-36 ultimately reaches WIR-46.\",\n      \"text\": \"In PRC-30, starting from WIR-36 ultimately reaches WIR-46.\",\n      \"evidence_ids\": [\n        \"o1a\",\n        \"o1b\",\n        \"o1c\",\n        \"c01\",\n        \"o1d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr02\",\n      \"process\": \"PRC-35\",\n      \"from_symbol\": \"WAM-14\",\n      \"to_symbol\": \"KEL-64\",\n      \"claim\": \"In PRC-35, starting from WAM-14 ultimately reaches KEL-64.\",\n      \"text\": \"In PRC-35, starting from WAM-14 ultimately reaches KEL-64.\",\n      \"evidence_ids\": [\n        \"o3a\",\n        \"o3b\",\n        \"o3c\",\n        \"c03\",\n        \"o3d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    },\n    {\n      \"id\": \"dr03\",\n      \"process\": \"PRC-64\",\n      \"from_symbol\": \"WIR-51\",\n      \"to_symbol\": \"PEL-29\",\n      \"claim\": \"In PRC-64, starting from WIR-51 ultimately reaches PEL-29.\",\n      \"text\": \"In PRC-64, starting from WIR-51 ultimately reaches PEL-29.\",\n      \"evidence_ids\": [\n        \"o2a\",\n        \"o2b\",\n        \"o2c\",\n        \"c02\",\n        \"o2d\"\n      ],\n      \"status\": \"derived\",\n      \"derivation\": \"deterministic_stage_composition\"\n    }\n  ],\n  \"unresolved_gaps\": []\n}",
+  "consolidation_mode": "additive_deterministic_graph"
+}
